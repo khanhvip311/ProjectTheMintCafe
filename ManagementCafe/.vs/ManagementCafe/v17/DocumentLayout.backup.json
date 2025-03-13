@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\",
+  "WorkspaceRootPath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\views\\staff\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\staff\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\wwwroot\\css\\staff\\order.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\wwwroot\\css\\staff\\order.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\foodbuzz\\shop-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\foodbuzz\\shop-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\foodbuzz\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\foodbuzz\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\foodbuzz\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\foodbuzz\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcoffe\\managementcafe\\managementcafe\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +50,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\css\\style.css",
-              "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\assets\\css\\style.css",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\css\\style.css",
-              "RelativeToolTip": "ManagementCafe\\wwwroot\\assets\\css\\style.css",
-              "ViewState": "AgIAAKkDAAAAAAAAAAAEwLEDAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T23:39:20.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAKoBAAAAAAAAAAArwFwBAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T18:17:50.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "shop-page.html",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\foodbuzz\\shop-page.html",
-              "RelativeDocumentMoniker": "ManagementCafe\\foodbuzz\\shop-page.html",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\foodbuzz\\shop-page.html",
-              "RelativeToolTip": "ManagementCafe\\foodbuzz\\shop-page.html",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-12T17:15:18.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.css",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
-              "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
-              "RelativeToolTip": "ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T18:16:27.516Z",
-              "EditorCaption": ""
+              "Title": "logo1500x500_2.png - PNG [1500x500, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png",
+              "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png - PNG [1500x500, 32 bit, PNG]",
+              "RelativeToolTip": "ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png - PNG [1500x500, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-13T08:13:45.524Z",
+              "EditorCaption": " - PNG [1500x500, 32 bit, PNG]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Order.cshtml",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Staff\\Order.cshtml",
-              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Staff\\Order.cshtml",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Staff\\Order.cshtml",
-              "RelativeToolTip": "ManagementCafe\\Views\\Staff\\Order.cshtml",
-              "ViewState": "AgIAAJQEAAAAAAAAAAAowKAEAAA9AAAAAAAAAA==",
+              "Title": "Login.css",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\css\\Login.css",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "ManagementCafe\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwCEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-13T07:42:11.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAhwCYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:13:41.894Z",
+              "WhenOpened": "2025-03-12T16:31:48.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ManagementCafe\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ManagementCafe\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:29:34.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ManagementCafe\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ManagementCafe\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:29:12.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "404.html",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\foodbuzz\\404.html",
+              "RelativeDocumentMoniker": "ManagementCafe\\foodbuzz\\404.html",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\foodbuzz\\404.html",
+              "RelativeToolTip": "ManagementCafe\\foodbuzz\\404.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-12T16:28:27.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "about.html",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\foodbuzz\\about.html",
+              "RelativeDocumentMoniker": "ManagementCafe\\foodbuzz\\about.html",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\foodbuzz\\about.html",
+              "RelativeToolTip": "ManagementCafe\\foodbuzz\\about.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-12T16:28:20.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAL4BAAAAAAAAAAAcwNsBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T08:35:15.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\assets\\css\\style.css",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\css\\style.css",
+              "RelativeToolTip": "ManagementCafe\\wwwroot\\assets\\css\\style.css",
+              "ViewState": "AgIAAN0BAAAAAAAAAAAEwIcBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-12T07:19:54.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHAEAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T05:54:36.914Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link rel="stylesheet" href="~/css/login.css" />
+}
+
+<main class="main-content">
+    <div class="login-container row">
+        <!-- Cột trái: Logo và thông tin -->
+        <div class="col-md-6 col-xl-6 col-sm-6 logo-section">
+            <img src="~/assets/images/logo/themint1.png" alt="Logo The Mint Café" class="img-fluid mx-auto d-block logo-img">
+            <p class="text-center text-white mt-2">Thưởng thức hương vị độc đáo tại The Mint Café</p>
+        </div>
+
+        <!-- Cột phải: Form đăng nhập -->
+        <div class="col-md-6 col-xl-6 col-sm-6 form-section">
+            <div class="login-box">
+                <div class="login-title text-center mb-4">Đăng nhập</div>
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Email/Số điện thoại/Tên đăng nhập">
+                </div>
+
+                <div class="mb-3 position-relative">
+                    <input type="password" class="form-control" placeholder="Mật khẩu" id="passwordInput">
+                </div>
+                <input class="btn-check" type="checkbox" id="showPassword" title="Hiển thị mật khẩu" />
+                <label for="showPassword">Hiển thị mật khẩu</label>
+
+                <button class="btn btn-custom w-100 mb-3">ĐĂNG NHẬP</button>
+
+                <div class="d-flex justify-content-between align-items-center mb-3 text-muted">
+                    <a href="#" class="text-decoration-none">Quên mật khẩu?</a>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-primary social-btn w-100 mb-2">
+                        <i class="fab fa-facebook-f"></i> Đăng nhập với Facebook
+                    </button>
+                    <button class="btn btn-danger social-btn w-100">
+                        <i class="fab fa-google"></i> Đăng nhập với Google
+                    </button>
+                </div>
+
+                <p class="text-center text-muted mb-0">Bạn chưa có tài khoản? <a href="#" class="text-decoration-none text-primary">Đăng ký ngay</a></p>
+            </div>
+        </div>
+    </div>
+</main>
