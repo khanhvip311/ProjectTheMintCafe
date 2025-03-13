@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\wwwroot\\css\\staff\\order.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\wwwroot\\css\\staff\\order.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\views\\staff\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\staff\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -11,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\foodbuzz\\shop-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\foodbuzz\\shop-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T08:35:15.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "style.css",
               "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\assets\\css\\style.css",
               "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\css\\style.css",
               "RelativeToolTip": "ManagementCafe\\wwwroot\\assets\\css\\style.css",
-              "ViewState": "AgIAAN0BAAAAAAAAAAAEwIcBAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAFUJAAAAAAAAAAAEwF8JAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T07:19:54.8Z",
+              "WhenOpened": "2025-03-12T23:39:20.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Home\\Index.cshtml",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ManagementCafe\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKoBAAAAAAAAAAArwFwBAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T05:54:36.914Z"
+              "WhenOpened": "2025-03-12T18:17:50.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "shop-page.html",
+              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\foodbuzz\\shop-page.html",
+              "RelativeDocumentMoniker": "ManagementCafe\\foodbuzz\\shop-page.html",
+              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\foodbuzz\\shop-page.html",
+              "RelativeToolTip": "ManagementCafe\\foodbuzz\\shop-page.html",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-12T17:15:18.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.css",
+              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
+              "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
+              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
+              "RelativeToolTip": "ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAF0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-12T18:16:27.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Staff\\Order.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Staff\\Order.cshtml",
+              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Views\\Staff\\Order.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Views\\Staff\\Order.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:13:41.894Z",
+              "EditorCaption": ""
             }
           ]
         }

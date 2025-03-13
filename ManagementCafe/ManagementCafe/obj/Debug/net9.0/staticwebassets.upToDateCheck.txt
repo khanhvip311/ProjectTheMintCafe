@@ -42,6 +42,7 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroo
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\css\Staff\Order.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\js\site.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
@@ -63,6 +64,10 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroo
 wwwroot\assets\css\bg-image\bannerthemint.jpg
 wwwroot\assets\images\logo\logo1500x500.png
 wwwroot\assets\images\logo\logo1500x500_2.png
+wwwroot\assets\images\logo\logo1500x500_2-removebg-preview.png
+wwwroot\assets\images\logo\logo1500x500_3.png
+wwwroot\assets\images\logo\logo1500x500_3-removebg-preview.png
+wwwroot\assets\images\logo\logo1500x500-removebg-preview.png
 wwwroot\assets\images\logo\logo47x47.png
 wwwroot\assets\images\logo\logotab.png
 wwwroot\assets\images\logo\themint1.png
@@ -71,6 +76,7 @@ wwwroot\assets\images\team\khanh.jpg
 wwwroot\assets\images\team\lan.jpg
 wwwroot\assets\images\team\phuong.jpg
 wwwroot\css\site.css
+wwwroot\css\Staff\Order.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

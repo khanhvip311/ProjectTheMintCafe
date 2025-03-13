@@ -2394,10 +2394,11 @@ ul.codex.icon-style-list {
   .news_link::before, .news_link::after {
     top: 0;
     height: 100%; }
-  .news_link::before {
-    left: 0;
-    width: 100%;
-    background: #ffc139; }
+    .news_link::before {
+        left: 0;
+        width: 100%;
+        background: #92d0b7;
+    }
     @media (min-width: 768px) {
       .news_link::before {
         width: 40%; } }
@@ -2408,7 +2409,7 @@ ul.codex.icon-style-list {
     display: none; }
     @media (min-width: 768px) {
       .news_link::after {
-        width: 60%;
+        width: 100%;
         display: block; } }
   .news_link .order-content {
     align-items: center;

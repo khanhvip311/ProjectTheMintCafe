@@ -1,0 +1,95 @@
+﻿.category-list table tr {
+    text-align: center;
+}
+
+.category-list {
+    position: sticky;
+    height: fit-content;
+}
+
+    .category-list table tr td h5 a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .category-list table tr th {
+        pointer-events: none;
+        background: #92d0b7;
+        border-radius: 0 10px 0px 0;
+        border: none;
+    }
+
+.choose-list {
+    max-height: 700px;
+}
+
+    .choose-list div table {
+        margin: 0;
+    }
+
+        .choose-list div table thead {
+            background: #92d0b7;
+            color: #362725;
+        }
+
+.price-area {
+    display: flex;
+    justify-content: right; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc (nếu có chiều cao) */
+    height: 100px; /* Tùy chỉnh chiều cao theo nhu cầu */
+}
+
+#btnXacNhan {
+    margin: 10px;
+    background-color: white; /* Mint */
+    border: #92d0b7 2px solid;
+    color: #92d0b7;
+    border-radius: 4px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+    #btnXacNhan:hover {
+        background-color: #92d0b7; /* Mint */
+        color: white;
+        transition-duration: 0.4s;
+        cursor: pointer
+    }
+
+    #btnXacNhan:focus {
+        outline: none;
+    }
+
+    #btnXacNhan:active {
+        transform: scale(0.70); /* Thu nhỏ 30% khi bấm */
+    }
+
+#btnXoa {
+    margin: 10px;
+    background-color: white; /* Red */
+    border: #f4511e 2px solid;
+    color: #f4511e;
+    border-radius: 4px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+    #btnXoa:hover {
+        background-color: #f4511e; /* Red */
+        color: white;
+        transition-duration: 0.4s;
+        cursor: pointer
+    }
+
+    #btnXoa:focus {
+        outline: none;
+    }
+    #btnXoa:active {
+        transform: scale(0.70); /* Thu nhỏ 30% khi bấm */
+    }

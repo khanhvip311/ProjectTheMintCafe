@@ -9,12 +9,28 @@
       "PackagePath": "staticwebassets\\assets\\css\\bg-image\\bannerthemint.jpg"
     },
     {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo1500x500-removebg-preview.png"
+    },
+    {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo\\logo1500x500.png"
     },
     {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo1500x500_2-removebg-preview.png"
+    },
+    {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo\\logo1500x500_2.png"
+    },
+    {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_3-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo1500x500_3-removebg-preview.png"
+    },
+    {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo1500x500_3.png"
     },
     {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo47x47.png",
@@ -43,6 +59,10 @@
     {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\team\\phuong.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\phuong.jpg"
+    },
+    {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
+      "PackagePath": "staticwebassets\\css\\Staff\\Order.css"
     },
     {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\site.css",
