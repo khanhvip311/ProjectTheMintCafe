@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcafe\\managementcafe\\managementcafe\\views\\account\\personalinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\account\\personalinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|e:\\hk2nam4\\doannganh\\project\\projectthemintcafe\\managementcafe\\managementcafe\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersonalInfo.cshtml",
+              "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Views\\Account\\PersonalInfo.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Views\\Account\\PersonalInfo.cshtml",
+              "ToolTip": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Views\\Account\\PersonalInfo.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Views\\Account\\PersonalInfo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T17:37:00.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ManagementCafe\\Views\\Account\\Register.cshtml",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "logo1500x500_2.png - PNG [1500x500, 32 bit, PNG]",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png",
               "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\assets\\images\\logo\\logo1500x500_2.png",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Login.css",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\css\\Login.css",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ManagementCafe\\Views\\Account\\Login.cshtml",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ManagementCafe\\Controllers\\HomeController.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ManagementCafe\\Controllers\\AccountController.cs",
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "404.html",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\foodbuzz\\404.html",
               "RelativeDocumentMoniker": "ManagementCafe\\foodbuzz\\404.html",
@@ -144,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "about.html",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\foodbuzz\\about.html",
               "RelativeDocumentMoniker": "ManagementCafe\\foodbuzz\\about.html",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ManagementCafe\\Views\\Shared\\_Layout.cshtml",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "style.css",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "ManagementCafe\\wwwroot\\assets\\css\\style.css",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ManagementCafe\\Views\\Home\\Index.cshtml",
