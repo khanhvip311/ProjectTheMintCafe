@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/Register.css" />
+
+<main class="main-content">
+    <div class="Register-container row">
+        <!-- Cột trái: Logo và thông tin -->
+        <div class="col-md-6 col-xl-6 col-sm-6 logo-section">
+            <img src="~/assets/images/logo/themint1.png" alt="Logo The Mint Café" class="img-fluid mx-auto d-block logo-img">
+            <p class="text-center text-white mt-2">Thưởng thức hương vị độc đáo tại The Mint Café</p>
+        </div>
+
+        <!-- Cột phải: Form đăng nhập -->
+        <div class="col-md-6 col-xl-6 col-sm-6 form-section">
+            <div class="Register-box">
+                <div class="Register-title text-center mb-4">Đăng ký</div>
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Họ và tên">
+                </div>
+
+                <div class="mb-3">
+                    <input type="number" class="form-control" placeholder="Email">
+                </div>
+
+                <div class="mb-3 position-relative">
+                    <input type="password" class="form-control" placeholder="Mật khẩu" id="passwordInput">
+                </div>
+
+                <div class="mb-3 position-relative">
+                    <input type="password" class="form-control" placeholder="Nhập lại mật khẩu" id="RePasswordInput">
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Số điện thoại">
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Địa chỉ">
+                </div>
+
+				<div class="mb-3">
+					<select class="form-control" id="gender">
+						<option selected disabled value="0">Giới tính</option>
+						<option value="Nam">Nam</option>
+						<option value="Nữ">Nữ</option>
+					</select>
+				</div>
+
+				<button class="btn btn-custom w-100 mb-3">ĐĂNG KÝ</button>
+
+                <p class="text-center text-muted mb-3" style="font-size: 12px;">
+					Bằng việc đăng ký, bạn đã đồng ý với The Mint về
+                    <br /><a href="#" class="text-decoration-none text-primary"><span style="color:#92d0b7">Điều khoản dịch vụ</span></a> &
+                    <a href="#" class="text-decoration-none text-primary"><span style="color:#92d0b7">Chính sách bảo mật</span></a>
+				</p>
+
+                <p class="text-center text-muted mb-0">Bạn đã có tài khoản? <a href="#" class="text-decoration-none text-primary"><span style="color:#92d0b7">Đăng nhập ngay</span></a></p>
+
+			</div>
+		</div>
+	</div>
+</main>

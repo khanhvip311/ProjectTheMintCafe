@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DldPasL/wQM=",
+  "dgSpecHash": "1qeJSaJhKxo=",
   "success": true,
-  "projectFilePath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj",
+  "projectFilePath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maith\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\maith\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

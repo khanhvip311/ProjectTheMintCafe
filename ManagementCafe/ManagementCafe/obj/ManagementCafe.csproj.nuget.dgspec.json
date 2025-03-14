@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj": {}
+    "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj": {}
   },
   "projects": {
-    "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj": {
+    "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj",
+        "projectUniqueName": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj",
         "projectName": "ManagementCafe",
-        "projectPath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj",
+        "projectPath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\ManagementCafe.csproj",
         "packagesPath": "C:\\Users\\maith\\.nuget\\packages\\",
-        "outputPath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCoffe\\ManagementCafe\\ManagementCafe\\obj\\",
+        "outputPath": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
