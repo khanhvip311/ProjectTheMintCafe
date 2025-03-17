@@ -1,14 +1,4 @@
-﻿/* Định dạng body để hỗ trợ bố cục */
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Arial', sans-serif;
-}
-
-/* Header (giữ nguyên nền trắng) */
+﻿/* Header (giữ nguyên nền trắng) */
 .header-section {
     background-color: #fff;
     border-bottom: 1px solid #ddd;

@@ -59,6 +59,7 @@ E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\ww
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\css\Customer\Booking.css
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
@@ -74,9 +75,11 @@ wwwroot\assets\images\logo\logo47x47.png
 wwwroot\assets\images\logo\logotab.png
 wwwroot\assets\images\logo\themint1.png
 wwwroot\assets\images\logo\themint2.png
+wwwroot\assets\images\product\icon\booking_table.png
 wwwroot\assets\images\team\khanh.jpg
 wwwroot\assets\images\team\lan.jpg
 wwwroot\assets\images\team\phuong.jpg
+wwwroot\css\Customer\Booking.css
 wwwroot\css\Login.css
 wwwroot\css\Register.css
 wwwroot\css\site.css

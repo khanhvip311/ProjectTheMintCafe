@@ -687,8 +687,6 @@ E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\ob
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\scopedcss\bundle\ManagementCafe.styles.css
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\scopedcss\projectbundle\ManagementCafe.bundle.scp.css
-E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\4o6jutoj4n-scgj0w1vlo.gz
-E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\d9pmx3etpt-buca040li7.gz
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\6uc11292bn-b9sayid5wm.gz
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\pvx4qonfxi-znxuzydmu3.gz
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\gjkbeq488o-61n19gt1b8.gz
@@ -770,3 +768,6 @@ E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\ob
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.pdb
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.genruntimeconfig.cache
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ref\ManagementCafe.dll
+E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\xmqtues86c-kbzxg5hyy0.gz
+E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\4o6jutoj4n-vfl8h7ykoy.gz
+E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\d9pmx3etpt-4o0uexrjme.gz

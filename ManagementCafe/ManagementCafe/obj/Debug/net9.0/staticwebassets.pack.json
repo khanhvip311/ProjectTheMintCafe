@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\logo\\themint2.png"
     },
     {
+      "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\product\\icon\\booking_table.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\icon\\booking_table.png"
+    },
+    {
       "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\team\\khanh.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\khanh.jpg"
     },
@@ -59,6 +63,10 @@
     {
       "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\team\\phuong.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\phuong.jpg"
+    },
+    {
+      "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
+      "PackagePath": "staticwebassets\\css\\Customer\\Booking.css"
     },
     {
       "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
