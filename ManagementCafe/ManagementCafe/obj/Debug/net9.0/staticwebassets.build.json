@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4bihIWLFAioXND+H/ts7nsUxhznjNaKrtP9ZW8CC54M=",
+  "Hash": "42oN00ixba00oV8ese+40L5rA4qPtT9yNQ267X82Sl4=",
   "Source": "ManagementCafe",
   "BasePath": "_content/ManagementCafe",
   "Mode": "Default",
@@ -225,6 +225,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\4o6jutoj4n-vfl8h7ykoy.gz",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "css/Login#[.{fingerprint=vfl8h7ykoy}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gw9xgvbwd1",
+      "Integrity": "YEx6/B0qFkZU93wPt1T9zWlRXZnDfcd1Hs1CPpOq+fU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css"
     },
     {
       "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\4tpokuri41-khv3u5hwcm.gz",
@@ -519,6 +540,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\d9pmx3etpt-4o0uexrjme.gz",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "css/Register#[.{fingerprint=4o0uexrjme}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Register.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ffyge90zvt",
+      "Integrity": "S2S4IM1DiepbrlsMM62U9VLlmOEf7JX9ZJmufnxzb/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Register.css"
     },
     {
       "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\dtjbbb0wtt-nvvlpmu67g.gz",
@@ -1298,6 +1340,27 @@
       "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "css/Customer/Booking#[.{fingerprint=kbzxg5hyy0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5z81m7kz9z",
+      "Integrity": "sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css"
+    },
+    {
       "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\yjwhb64jx4-fvhpjtyr6v.gz",
       "SourceId": "ManagementCafe",
       "SourceType": "Discovered",
@@ -1655,6 +1718,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\themint2.png"
     },
     {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\product\\icon\\booking_table.png",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "assets/images/product/icon/booking_table#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "potxlbo4vk",
+      "Integrity": "idV4F5LVCCN+QL2F7BoHRLBtqHuvNKX9Ed9EzTU8i7s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product\\icon\\booking_table.png"
+    },
+    {
       "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\team\\khanh.jpg",
       "SourceId": "ManagementCafe",
       "SourceType": "Discovered",
@@ -1716,6 +1800,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\team\\phuong.jpg"
+    },
+    {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "css/Customer/Booking#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kbzxg5hyy0",
+      "Integrity": "EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Customer\\Booking.css"
+    },
+    {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "css/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vfl8h7ykoy",
+      "Integrity": "dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Register.css",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "css/Register#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4o0uexrjme",
+      "Integrity": "HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Register.css"
     },
     {
       "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\site.css",
@@ -3332,7 +3479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:00:23 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3377,7 +3524,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:00:23 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3414,7 +3561,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:10:35 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3451,7 +3598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:10:35 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3496,7 +3643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:10:48 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3541,7 +3688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:10:48 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3578,7 +3725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 23:35:57 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3623,7 +3770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 23:35:57 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3966,6 +4113,88 @@
       ]
     },
     {
+      "Route": "assets/images/product/icon/booking_table.png",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\product\\icon\\booking_table.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"idV4F5LVCCN+QL2F7BoHRLBtqHuvNKX9Ed9EzTU8i7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-idV4F5LVCCN+QL2F7BoHRLBtqHuvNKX9Ed9EzTU8i7s="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/product/icon/booking_table.potxlbo4vk.png",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\product\\icon\\booking_table.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"idV4F5LVCCN+QL2F7BoHRLBtqHuvNKX9Ed9EzTU8i7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "potxlbo4vk"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/product/icon/booking_table.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-idV4F5LVCCN+QL2F7BoHRLBtqHuvNKX9Ed9EzTU8i7s="
+        }
+      ]
+    },
+    {
       "Route": "assets/images/team/khanh.hkigft6833.jpg",
       "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\team\\khanh.jpg",
       "Selectors": [],
@@ -4208,6 +4437,900 @@
         {
           "Name": "integrity",
           "Value": "sha256-aYFhFdJiN8oCBSbK03evNxAgA8un7IIAPsdrxAfbGPo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Customer/Booking.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010526315789"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Customer/Booking.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Customer/Booking.css.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA="
+        }
+      ]
+    },
+    {
+      "Route": "css/Customer/Booking.kbzxg5hyy0.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010526315789"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbzxg5hyy0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Customer/Booking.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Customer/Booking.kbzxg5hyy0.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbzxg5hyy0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Customer/Booking.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Customer/Booking.kbzxg5hyy0.css.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbzxg5hyy0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Customer/Booking.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\4o6jutoj4n-vfl8h7ykoy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000635324015"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1573"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YEx6/B0qFkZU93wPt1T9zWlRXZnDfcd1Hs1CPpOq+fU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\4o6jutoj4n-vfl8h7ykoy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YEx6/B0qFkZU93wPt1T9zWlRXZnDfcd1Hs1CPpOq+fU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YEx6/B0qFkZU93wPt1T9zWlRXZnDfcd1Hs1CPpOq+fU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.vfl8h7ykoy.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\4o6jutoj4n-vfl8h7ykoy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000635324015"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1573"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YEx6/B0qFkZU93wPt1T9zWlRXZnDfcd1Hs1CPpOq+fU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfl8h7ykoy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.vfl8h7ykoy.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfl8h7ykoy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dZT+3jjKs1HZdzbpie+ElJNHBep0dNjboc+b5kLKQG0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.vfl8h7ykoy.css.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\4o6jutoj4n-vfl8h7ykoy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YEx6/B0qFkZU93wPt1T9zWlRXZnDfcd1Hs1CPpOq+fU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfl8h7ykoy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YEx6/B0qFkZU93wPt1T9zWlRXZnDfcd1Hs1CPpOq+fU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.4o0uexrjme.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\d9pmx3etpt-4o0uexrjme.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000621504040"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1608"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2S4IM1DiepbrlsMM62U9VLlmOEf7JX9ZJmufnxzb/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4o0uexrjme"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Register.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.4o0uexrjme.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4o0uexrjme"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Register.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.4o0uexrjme.css.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\d9pmx3etpt-4o0uexrjme.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2S4IM1DiepbrlsMM62U9VLlmOEf7JX9ZJmufnxzb/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4o0uexrjme"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Register.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2S4IM1DiepbrlsMM62U9VLlmOEf7JX9ZJmufnxzb/E="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\d9pmx3etpt-4o0uexrjme.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000621504040"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1608"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2S4IM1DiepbrlsMM62U9VLlmOEf7JX9ZJmufnxzb/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HD+xo/px5pyn/bKatl/bU0Iq7JKtFtlr48pOyONLh1Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.css.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\d9pmx3etpt-4o0uexrjme.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2S4IM1DiepbrlsMM62U9VLlmOEf7JX9ZJmufnxzb/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2S4IM1DiepbrlsMM62U9VLlmOEf7JX9ZJmufnxzb/E="
         }
       ]
     },
@@ -4534,7 +5657,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:14:53 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4587,7 +5710,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:14:53 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4624,7 +5747,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:14:53 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4671,7 +5794,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:14:53 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4732,7 +5855,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:14:53 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4777,7 +5900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 00:14:53 GMT"
+          "Value": "Thu, 13 Mar 2025 08:17:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23092,7 +24215,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23145,7 +24268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23182,7 +24305,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23229,7 +24352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23282,7 +24405,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23319,7 +24442,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23366,7 +24489,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23427,7 +24550,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23472,7 +24595,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23527,7 +24650,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23588,7 +24711,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23633,7 +24756,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 07:08:39 GMT"
+          "Value": "Mon, 17 Mar 2025 21:08:54 GMT"
         },
         {
           "Name": "Cache-Control",

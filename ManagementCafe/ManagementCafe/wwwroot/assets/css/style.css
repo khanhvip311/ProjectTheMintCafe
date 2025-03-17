@@ -339,7 +339,7 @@ aside {
   padding: 70px 0; }
   @media (min-width: 1200px) {
     .padding-tb {
-      padding: 120px 0; } }
+      padding: 20px 0; } }
 
 .bg-body {
   background: #f5f5f1; }
@@ -2394,11 +2394,10 @@ ul.codex.icon-style-list {
   .news_link::before, .news_link::after {
     top: 0;
     height: 100%; }
-    .news_link::before {
-        left: 0;
-        width: 100%;
-        background: #92d0b7;
-    }
+  .news_link::before {
+    left: 0;
+    width: 100%;
+    background: #ffc139; }
     @media (min-width: 768px) {
       .news_link::before {
         width: 40%; } }
@@ -2409,7 +2408,7 @@ ul.codex.icon-style-list {
     display: none; }
     @media (min-width: 768px) {
       .news_link::after {
-        width: 100%;
+        width: 60%;
         display: block; } }
   .news_link .order-content {
     align-items: center;

@@ -8,6 +8,7 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroo
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation\LICENSE.md
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\css\Login.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
@@ -21,6 +22,7 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroo
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\css\Register.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
@@ -57,6 +59,7 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroo
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\css\Customer\Booking.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
@@ -72,9 +75,13 @@ wwwroot\assets\images\logo\logo47x47.png
 wwwroot\assets\images\logo\logotab.png
 wwwroot\assets\images\logo\themint1.png
 wwwroot\assets\images\logo\themint2.png
+wwwroot\assets\images\product\icon\booking_table.png
 wwwroot\assets\images\team\khanh.jpg
 wwwroot\assets\images\team\lan.jpg
 wwwroot\assets\images\team\phuong.jpg
+wwwroot\css\Customer\Booking.css
+wwwroot\css\Login.css
+wwwroot\css\Register.css
 wwwroot\css\site.css
 wwwroot\css\Staff\Order.css
 wwwroot\favicon.ico

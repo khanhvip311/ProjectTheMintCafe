@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewData["Title"] = "PersonalInfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header text-white d-flex justify-content-between align-items-center" style="background-color: #92d0b7; height:55px">
+            <div class="w-100 text-center">
+                <h4 class="m-0">THÔNG TIN CÁ NHÂN</h4>
+            </div>
+            <button class="btn btn-light" id="editButton">Chỉnh sửa</button>
+        </div>
+        <div class="card-body">
+            <div id="infoDisplay">
+                <p><strong>Họ và Tên:</strong> <span id="displayFullName">Nguyễn Văn A</span></p>
+                <p><strong>Email:</strong> <span id="displayEmail">nguyenvana@example.com</span></p>
+                <p><strong>Số điện thoại:</strong> <span id="displayPhone">0123456789</span></p>
+                <p><strong>Địa chỉ:</strong> <span id="displayAddress">123 Đường ABC, TP.HCM</span></p>
+                <p><strong>Giới tính:</strong> <span id="displayGender">Nam</span></p>
+                <p><strong>Ngày sinh:</strong> <span id="displayDob">1990-01-01</span></p>
+            </div>
+            <form id="editForm" style="display: none;">
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Họ và Tên</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Nhập họ và tên">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Nhập email">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Số điện thoại</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Nhập số điện thoại">
+                </div>
+                <div class="mb-3">
+                    <label for="address" class="form-label">Địa chỉ</label>
+                    <input type="text" class="form-control" id="address" placeholder="Nhập địa chỉ">
+                </div>
+                <div class="mb-3">
+                    <label for="gender" class="form-label">Giới tính</label>
+                    <select class="form-select" id="gender">
+                        <option selected disabled>Chọn giới tính</option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="dob" class="form-label">Ngày sinh</label>
+                    <input type="date" class="form-control" id="dob">
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="button" class="btn btn-success" id="saveButton">Lưu</button>
+                    <button type="button" class="btn btn-danger ms-2" id="cancelButton">Hủy</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    const editButton = document.getElementById('editButton');
+    const editForm = document.getElementById('editForm');
+    const infoDisplay = document.getElementById('infoDisplay');
+    const saveButton = document.getElementById('saveButton');
+    const cancelButton = document.getElementById('cancelButton');
+
+    editButton.addEventListener('click', () => {
+        editForm.style.display = 'block';
+        infoDisplay.style.display = 'none';
+        editButton.style.display = 'none';
+    });
+
+    const toggleEditButton = () => {
+        editForm.style.display = 'none';
+        infoDisplay.style.display = 'block';
+        editButton.style.display = 'inline-block';
+    };
+
+    saveButton.addEventListener('click', () => {
+        document.getElementById('displayFullName').textContent = document.getElementById('fullName').value;
+        document.getElementById('displayEmail').textContent = document.getElementById('email').value;
+        document.getElementById('displayPhone').textContent = document.getElementById('phone').value;
+        document.getElementById('displayAddress').textContent = document.getElementById('address').value;
+        document.getElementById('displayGender').textContent = document.getElementById('gender').value;
+        document.getElementById('displayDob').textContent = document.getElementById('dob').value;
+        toggleEditButton();
+    });
+
+    cancelButton.addEventListener('click', toggleEditButton);
+</script>
+

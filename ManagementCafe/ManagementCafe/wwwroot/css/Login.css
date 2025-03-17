@@ -1,0 +1,245 @@
+﻿/* Header (giữ nguyên nền trắng) */
+.header-section {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Main content (phần giữa với nền xanh mint) */
+.main-content {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container cho form đăng nhập */
+.login-container {
+    width: 100%;
+    max-width: 1200px; /* Tăng max-width cho màn hình lớn */
+    margin: 0 auto;
+    padding: 0; /* Tăng khoảng cách hai bên với viền màn hình */
+    background: #92d0b7;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+/* Cột trái: Logo */
+.logo-section {
+    background-color: #92d0b7;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    max-width: 500px;
+    border-radius: 10px 0 0 10px;
+    padding: 0;
+}
+
+    .logo-section .logo-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo-section p {
+        font-size: 16px; /* Tăng kích thước chữ */
+        color: #fff;
+        margin: 0;
+        max-width: 500px; /* Giới hạn chiều rộng để tránh kéo dài quá mức */
+    }
+
+/* Cột phải: Form đăng nhập */
+.form-section {
+    padding: 60px; /* Tăng padding để không gian rộng hơn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #92d0b7;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Khung trắng bao quanh form */
+.login-box {
+    background-color: #fff;
+    padding: 40px; /* Tăng padding bên trong form */
+    border-radius: 15px; /* Tăng bo góc cho màn hình lớn */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Tăng đổ bóng */
+    width: 100%;
+    max-width: 450px; /* Tăng kích thước form */
+}
+
+/* Định dạng tiêu đề */
+.login-title {
+    font-size: 2.2rem; /* Tăng kích thước tiêu đề */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px; /* Tăng khoảng cách dưới */
+}
+
+/* Định dạng input */
+.form-control {
+    border-radius: 8px; /* Tăng bo góc */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px; /* Tăng khoảng cách giữa các input */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+    .form-control:focus {
+        border-color: #92d0b7;
+        box-shadow: 0 0 8px rgba(146, 208, 183, 0.5);
+        outline: none;
+    }
+
+/* Định dạng nút ĐĂNG NHẬP */
+.btn-custom {
+    background-color: #92d0b7;
+    color: white;
+    border: none;
+    font-size: 18px; /* Tăng kích thước chữ */
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 8px; /* Tăng bo góc */
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    .btn-custom:hover {
+        background-color: #ffc139;
+        transform: translateY(-3px); /* Tăng hiệu ứng hover */
+    }
+
+/* Định dạng nút mạng xã hội */
+.social-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px; /* Tăng bo góc */
+    margin-bottom: 15px; /* Tăng khoảng cách */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    border-color: #4267b2;
+    color: #4267b2;
+}
+
+    .btn-primary:hover {
+        background-color: #e7f0fd;
+    }
+
+.btn-danger {
+    border-color: #db4437;
+    color: #db4437;
+}
+
+    .btn-danger:hover {
+        background-color: #fdeaea;
+    }
+
+/* Định dạng liên kết */
+.d-flex a {
+    font-size: 15px; /* Tăng kích thước chữ */
+    color: #92d0b7;
+    text-decoration: none;
+}
+
+    .d-flex a:hover {
+        text-decoration: underline;
+    }
+
+.d-flex span {
+    font-size: 15px;
+    color: #666;
+}
+
+/* Định dạng dòng chữ "Bạn chưa có tài khoản?" */
+.text-center a {
+    color: #92d0b7;
+    font-weight: bold;
+}
+
+    .text-center a:hover {
+        text-decoration: underline;
+    }
+
+/* Footer (giữ nguyên nền trắng hoặc ảnh nền) */
+footer {
+    background-color: #fff;
+    padding: 30px 0; /* Tăng padding cho màn hình lớn */
+    border-top: 1px solid #ddd;
+}
+
+/* Đảm bảo footer-menu cũng giữ nền trắng */
+.fotter-header {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+/* Responsive cho màn hình lớn */
+@media (min-width: 1200px) {
+    .login-container {
+        max-width: 1400px; /* Tăng chiều rộng tối đa cho màn hình lớn */
+    }
+
+    .form-section {
+        padding: 80px;
+    }
+
+    .login-box {
+        padding: 50px;
+        max-width: 500px;
+    }
+
+    .login-title {
+        font-size: 2.5rem;
+    }
+
+    .form-control {
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    .btn-custom {
+        font-size: 20px;
+        padding: 16px;
+    }
+
+    .social-btn {
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    .d-flex a, .d-flex span {
+        font-size: 16px;
+    }
+}
+
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 767px) {
+    .login-container {
+    }
+
+    .logo-section, .form-section {
+        padding: 20px;
+    }
+
+    .login-box {
+        max-width: 100%;
+    }
+
+    .login-title {
+        font-size: 1.5rem;
+    }
+}

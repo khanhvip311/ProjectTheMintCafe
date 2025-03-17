@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\logo\\themint2.png"
     },
     {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\product\\icon\\booking_table.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\icon\\booking_table.png"
+    },
+    {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\team\\khanh.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\khanh.jpg"
     },
@@ -59,6 +63,18 @@
     {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\assets\\images\\team\\phuong.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\phuong.jpg"
+    },
+    {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
+      "PackagePath": "staticwebassets\\css\\Customer\\Booking.css"
+    },
+    {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
     },
     {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Staff\\Order.css",
