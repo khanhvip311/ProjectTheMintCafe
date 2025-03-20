@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    <link rel="stylesheet" href="~/css/login.css" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
 }
 
 <main class="main-content">
@@ -17,17 +17,24 @@
             <div class="login-box">
                 <div class="login-title text-center mb-4">Đăng nhập</div>
 
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Email/Số điện thoại/Tên đăng nhập">
-                </div>
+                <form asp-action="Login" asp-controller="Account" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="username" name="Username" placeholder="Email/Số điện thoại/Tên đăng nhập" required>
+                    </div>
 
-                <div class="mb-3 position-relative">
-                    <input type="password" class="form-control" placeholder="Mật khẩu" id="passwordInput">
-                </div>
-                <input class="btn-check" type="checkbox" id="showPassword" title="Hiển thị mật khẩu" />
-                <label for="showPassword">Hiển thị mật khẩu</label>
+                    <div class="mb-3 position-relative">
+                        <input type="password" class="form-control" id="passwordInput" name="Password" placeholder="Mật khẩu" required>
+                    </div>
+                    <input class="btn-check" type="checkbox" id="showPassword" title="Hiển thị mật khẩu" />
+                    <label for="showPassword">Hiển thị mật khẩu</label>
 
-                <button class="btn btn-custom w-100 mb-3">ĐĂNG NHẬP</button>
+                    @if (!string.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
+                    {
+                        <p class="text-danger text-center">@ViewData["ErrorMessage"]</p>
+                    }
+
+                    <button type="submit" class="btn btn-custom w-100 mb-3">ĐĂNG NHẬP</button>
+                </form>
 
                 <div class="d-flex justify-content-between align-items-center mb-3 text-muted">
                     <a href="#" class="text-decoration-none">Quên mật khẩu?</a>
@@ -42,8 +49,18 @@
                     </button>
                 </div>
 
-                <p class="text-center text-muted mb-0">Bạn chưa có tài khoản? <a href="#" class="text-decoration-none text-primary">Đăng ký ngay</a></p>
+                <p class="text-center text-muted mb-0">Bạn chưa có tài khoản? <a asp-action="Register" asp-controller="Account" class="text-decoration-none text-primary">Đăng ký ngay</a></p>
             </div>
         </div>
     </div>
 </main>
+
+@section Scripts {
+    <script>
+        // Hiển thị/ẩn mật khẩu
+        document.getElementById('showPassword').addEventListener('change', function() {
+            const passwordInput = document.getElementById('passwordInput');
+            passwordInput.type = this.checked ? 'text' : 'password';
+        });
+    </script>
+}

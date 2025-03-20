@@ -1,10 +1,8 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Register";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<link rel="stylesheet" href="~/css/Register.css" />
-
+<link rel="stylesheet" href="~/css/Register.css" asp-append-version="true" />
 <main class="main-content">
     <div class="Register-container row">
         <!-- Cột trái: Logo và thông tin -->
@@ -13,54 +11,83 @@
             <p class="text-center text-white mt-2">Thưởng thức hương vị độc đáo tại The Mint Café</p>
         </div>
 
-        <!-- Cột phải: Form đăng nhập -->
+        <!-- Cột phải: Form đăng ký -->
         <div class="col-md-6 col-xl-6 col-sm-6 form-section">
             <div class="Register-box">
                 <div class="Register-title text-center mb-4">Đăng ký</div>
 
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Họ và tên">
-                </div>
+                <form asp-action="Register" asp-controller="Account" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="FullName" placeholder="Họ và tên" required>
+                    </div>
 
-                <div class="mb-3">
-                    <input type="number" class="form-control" placeholder="Email">
-                </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" name="Email" placeholder="Email" required>
+                    </div>
 
-                <div class="mb-3 position-relative">
-                    <input type="password" class="form-control" placeholder="Mật khẩu" id="passwordInput">
-                </div>
+                    <div class="mb-3 position-relative">
+                        <input type="password" class="form-control" name="Password" id="passwordInput" placeholder="Mật khẩu" required>
+                    </div>
 
-                <div class="mb-3 position-relative">
-                    <input type="password" class="form-control" placeholder="Nhập lại mật khẩu" id="RePasswordInput">
-                </div>
+                    <div class="mb-3 position-relative">
+                        <input type="password" class="form-control" name="RePassword" id="RePasswordInput" placeholder="Nhập lại mật khẩu" required>
+                    </div>
 
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Số điện thoại">
-                </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="PhoneNumber" placeholder="Số điện thoại" required>
+                    </div>
 
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Địa chỉ">
-                </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="Address" placeholder="Địa chỉ" required>
+                    </div>
 
-				<div class="mb-3">
-					<select class="form-control" id="gender">
-						<option selected disabled value="0">Giới tính</option>
-						<option value="Nam">Nam</option>
-						<option value="Nữ">Nữ</option>
-					</select>
-				</div>
+                    <div class="mb-3">
+                        <select class="form-control" name="Gender" id="gender" required>
+                            <option selected disabled value="">Giới tính</option>
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                        </select>
+                    </div>
 
-				<button class="btn btn-custom w-100 mb-3">ĐĂNG KÝ</button>
+                    @if (!string.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
+                    {
+                        <p class="text-danger text-center">@ViewData["ErrorMessage"]</p>
+                    }
+
+                    <button type="submit" class="btn btn-custom w-100 mb-3">ĐĂNG KÝ</button>
+                </form>
 
                 <p class="text-center text-muted mb-3" style="font-size: 12px;">
-					Bằng việc đăng ký, bạn đã đồng ý với The Mint về
-                    <br /><a href="#" class="text-decoration-none text-primary"><span style="color:#92d0b7">Điều khoản dịch vụ</span></a> &
-                    <a href="#" class="text-decoration-none text-primary"><span style="color:#92d0b7">Chính sách bảo mật</span></a>
-				</p>
+                    Bằng việc đăng ký, bạn đã đồng ý với The Mint về
+                    <br /><a asp-action="TermsOfService" asp-controller="Home" class="text-decoration-none text-primary"><span style="color:#92d0b7">Điều khoản dịch vụ</span></a> &
+                    <a asp-action="PrivacyPolicy" asp-controller="Home" class="text-decoration-none text-primary"><span style="color:#92d0b7">Chính sách bảo mật</span></a>
+                </p>
 
-                <p class="text-center text-muted mb-0">Bạn đã có tài khoản? <a href="#" class="text-decoration-none text-primary"><span style="color:#92d0b7">Đăng nhập ngay</span></a></p>
-
-			</div>
-		</div>
-	</div>
+                <p class="text-center text-muted mb-0">Bạn đã có tài khoản? <a asp-action="Login" asp-controller="Account" class="text-decoration-none text-primary"><span style="color:#92d0b7">Đăng nhập ngay</span></a></p>
+            </div>
+        </div>
+    </div>
 </main>
+
+@section Scripts {
+    <script>
+        // Hiển thị/ẩn mật khẩu
+        document.getElementById('passwordInput').addEventListener('input', function() {
+            const rePassword = document.getElementById('RePasswordInput');
+            if (rePassword.value && this.value !== rePassword.value) {
+                rePassword.setCustomValidity('Mật khẩu không khớp!');
+            } else {
+                rePassword.setCustomValidity('');
+            }
+        });
+
+        document.getElementById('RePasswordInput').addEventListener('input', function() {
+            const password = document.getElementById('passwordInput');
+            if (password.value !== this.value) {
+                this.setCustomValidity('Mật khẩu không khớp!');
+            } else {
+                this.setCustomValidity('');
+            }
+        });
+    </script>
+}

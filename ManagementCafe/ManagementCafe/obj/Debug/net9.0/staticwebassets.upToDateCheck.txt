@@ -5,6 +5,7 @@ E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\ww
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\css\Home\TermsOfService.css
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation\LICENSE.md
@@ -22,6 +23,7 @@ E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\ww
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\css\Home\PrivacyPolicy.css
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\css\Register.css
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 E:\HK2Nam4\DoAnNganh\Project\ProjectTheMintCafe\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
@@ -80,6 +82,8 @@ wwwroot\assets\images\team\khanh.jpg
 wwwroot\assets\images\team\lan.jpg
 wwwroot\assets\images\team\phuong.jpg
 wwwroot\css\Customer\Booking.css
+wwwroot\css\Home\PrivacyPolicy.css
+wwwroot\css\Home\TermsOfService.css
 wwwroot\css\Login.css
 wwwroot\css\Register.css
 wwwroot\css\site.css

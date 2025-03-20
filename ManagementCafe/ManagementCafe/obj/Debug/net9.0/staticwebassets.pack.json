@@ -69,6 +69,14 @@
       "PackagePath": "staticwebassets\\css\\Customer\\Booking.css"
     },
     {
+      "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Home\\PrivacyPolicy.css",
+      "PackagePath": "staticwebassets\\css\\Home\\PrivacyPolicy.css"
+    },
+    {
+      "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Home\\TermsOfService.css",
+      "PackagePath": "staticwebassets\\css\\Home\\TermsOfService.css"
+    },
+    {
       "Id": "E:\\HK2Nam4\\DoAnNganh\\Project\\ProjectTheMintCafe\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },

@@ -10,23 +10,13 @@
 
     <!-- favicon -->
     <link rel="shortcut icon" href="~/assets/images/logo/logotab.png" type="image/png">
-    <!-- animate scss -->
-
-    <link href="~/assets/css/animate.css" rel="stylesheet" />
-    <!-- bootstarp css -->
-
-    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- icofont -->
-    <link rel="stylesheet" href="~/assets/css/icofont.min.css">
-    <link rel="stylesheet" href="~/assets/css/all.min.css">
-
-
-    <!-- lightcase css -->
-    <link rel="stylesheet" href="~/assets/css/lightcase.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" href="~/assets/css/swiper.min.css">
-    <!-- cusyom scss -->
-    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link href="~/assets/css/animate.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="stylesheet" href="~/assets/css/icofont.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/all.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/lightcase.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/swiper.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/style.css" asp-append-version="true">
 
     <title>The Mint Café</title>
 </head>
@@ -465,21 +455,24 @@
         </header>
         <!-- <div class="footer-bottom"></div> -->
     </div>
+
+    @RenderSection("Scripts", required: false)
+
     <!-- footer menu ends -->
     <!-- scrollToTop start here -->
     <a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i></a>
     <!-- scrollToTop ending here -->
-    <script src="~/assets/js/jquery.js"></script>
-    <script src="~/assets/js/fontawesome.min.js"></script>
-    <script src="~/assets/js/waypoints.min.js"></script>
-    <script src="~/assets/js/bootstrap.min.js"></script>
-    <script src="~/assets/js/isotope.pkgd.min.js"></script>
-    <script src="~/assets/js/wow.min.js"></script>
-    <script src="~/assets/js/swiper.min.js"></script>
-    <script src="~/assets/js/progress.js"></script>
-    <script src="~/assets/js/tab.js"></script>
-    <script src="~/assets/js/lightcase.js"></script>
-    <script src="~/assets/js/jquery.countdown.min.js"></script>
-    <script src="~/assets/js/functions.js"></script>
+    <script src="~/assets/js/jquery.js" asp-append-version="true"></script>
+    <script src="~/assets/js/fontawesome.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/waypoints.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/isotope.pkgd.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/wow.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/swiper.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/progress.js" asp-append-version="true"></script>
+    <script src="~/assets/js/tab.js" asp-append-version="true"></script>
+    <script src="~/assets/js/lightcase.js" asp-append-version="true"></script>
+    <script src="~/assets/js/jquery.countdown.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/functions.js" asp-append-version="true"></script>
 </body>
 </html>
