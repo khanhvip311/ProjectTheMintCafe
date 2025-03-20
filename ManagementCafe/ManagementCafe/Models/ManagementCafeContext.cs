@@ -33,13 +33,13 @@ public partial class ManagementCafeContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=CAS;Initial Catalog=ManagementCafe;User ID=sa;Password=1;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+        => optionsBuilder.UseSqlServer("Data Source=eren\\eren;Initial Catalog=ManagementCafe;Integrated Security=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Bill>(entity =>
         {
-            entity.HasKey(e => e.BillId).HasName("PK__Bill__11F2FC4AE18AD3CF");
+            entity.HasKey(e => e.BillId).HasName("PK__Bill__11F2FC4A26C03A3B");
 
             entity.ToTable("Bill");
 
@@ -57,7 +57,7 @@ public partial class ManagementCafeContext : DbContext
 
         modelBuilder.Entity<BillDetail>(entity =>
         {
-            entity.HasKey(e => e.BillDetailId).HasName("PK__BillDeta__793CAF75F0210C58");
+            entity.HasKey(e => e.BillDetailId).HasName("PK__BillDeta__793CAF75FA4B8CCC");
 
             entity.ToTable("BillDetail");
 
@@ -81,7 +81,7 @@ public partial class ManagementCafeContext : DbContext
 
         modelBuilder.Entity<Booking>(entity =>
         {
-            entity.HasKey(e => e.BookingId).HasName("PK__Booking__73951ACD2DB106D4");
+            entity.HasKey(e => e.BookingId).HasName("PK__Booking__73951ACD8480BC67");
 
             entity.ToTable("Booking");
 
@@ -106,7 +106,7 @@ public partial class ManagementCafeContext : DbContext
 
         modelBuilder.Entity<BookingDetail>(entity =>
         {
-            entity.HasKey(e => e.BookingDetailId).HasName("PK__BookingD__8136D47AE3FCCD7F");
+            entity.HasKey(e => e.BookingDetailId).HasName("PK__BookingD__8136D47AD9870057");
 
             entity.ToTable("BookingDetail");
 
@@ -129,35 +129,31 @@ public partial class ManagementCafeContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CateId).HasName("PK__Category__27638D741A6FA60B");
+            entity.HasKey(e => e.CateId).HasName("PK__Category__27638D7455263785");
 
             entity.ToTable("Category");
 
             entity.Property(e => e.CateId)
                 .ValueGeneratedNever()
                 .HasColumnName("CateID");
-            entity.Property(e => e.Name)
-                .HasMaxLength(255)
-                .IsUnicode(false);
+            entity.Property(e => e.Name).HasMaxLength(255);
         });
 
         modelBuilder.Entity<PartyTable>(entity =>
         {
-            entity.HasKey(e => e.TableId).HasName("PK__PartyTab__7D5F018EBFDCD2C9");
+            entity.HasKey(e => e.TableId).HasName("PK__PartyTab__7D5F018E5B79CBE9");
 
             entity.ToTable("PartyTable");
 
             entity.Property(e => e.TableId)
                 .ValueGeneratedNever()
                 .HasColumnName("TableID");
-            entity.Property(e => e.Status)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.Status).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.ProductId).HasName("PK__Product__B40CC6EDA818A669");
+            entity.HasKey(e => e.ProductId).HasName("PK__Product__B40CC6ED2E4C4CB8");
 
             entity.ToTable("Product");
 
@@ -169,13 +165,9 @@ public partial class ManagementCafeContext : DbContext
             entity.Property(e => e.Image)
                 .HasMaxLength(255)
                 .IsUnicode(false);
-            entity.Property(e => e.Name)
-                .HasMaxLength(255)
-                .IsUnicode(false);
+            entity.Property(e => e.Name).HasMaxLength(255);
             entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.Status)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.Status).HasMaxLength(50);
 
             entity.HasOne(d => d.Cate).WithMany(p => p.Products)
                 .HasForeignKey(d => d.CateId)
@@ -185,9 +177,9 @@ public partial class ManagementCafeContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCACAB56F9A8");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCACD5BD18E6");
 
-            entity.HasIndex(e => e.Email, "UQ__Users__A9D1053492054B63").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__A9D105349FC33F9F").IsUnique();
 
             entity.Property(e => e.UserId)
                 .ValueGeneratedNever()
@@ -196,18 +188,14 @@ public partial class ManagementCafeContext : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(255)
                 .IsUnicode(false);
-            entity.Property(e => e.Names)
-                .HasMaxLength(255)
-                .IsUnicode(false);
+            entity.Property(e => e.Name).HasMaxLength(255);
             entity.Property(e => e.Pass)
                 .HasMaxLength(255)
                 .IsUnicode(false);
             entity.Property(e => e.Phone)
                 .HasMaxLength(15)
                 .IsUnicode(false);
-            entity.Property(e => e.Role)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.Role).HasMaxLength(50);
         });
 
         OnModelCreatingPartial(modelBuilder);
