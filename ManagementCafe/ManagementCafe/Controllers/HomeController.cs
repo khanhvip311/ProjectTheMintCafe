@@ -11,16 +11,19 @@ namespace ManagementCafe.Controllers
 
         public IActionResult Index()
         {
-            User u = JsonConvert.DeserializeObject<User>(HttpContext.Session.GetString("AccountLogOn")); ;
-            //var pr = db.Products.FirstOrDefault(t => t.ProductId == 1);
-            if (u == null)
+            string userJson = HttpContext.Session.GetString("AccountLogOn");
+            if (string.IsNullOrEmpty(userJson)) // Kiểm tra session có tồn tại không
             {
                 return RedirectToAction("Login", "Account");
             }
-            else
+
+            User u = JsonConvert.DeserializeObject<User>(userJson);
+            if (u == null) // Kiểm tra thêm trường hợp deserialize ra null (dự phòng)
             {
-                return View(u);
+                return RedirectToAction("Login", "Account");
             }
+
+            return View(u);
         }
 
         public IActionResult TermsOfService()
@@ -29,7 +32,7 @@ namespace ManagementCafe.Controllers
         }
 
         public IActionResult PrivacyPolicy()
-        {   
+        {
             return View();
         }
     }

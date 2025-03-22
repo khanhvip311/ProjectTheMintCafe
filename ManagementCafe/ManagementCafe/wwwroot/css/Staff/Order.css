@@ -93,3 +93,52 @@
     #btnXoa:active {
         transform: scale(0.70); /* Thu nhỏ 30% khi bấm */
     }
+
+.product-thumb img{
+    width: 200px;
+    height: 200px;
+}
+
+.category-link-p{
+    margin: 0;
+}
+.category-link {
+    width: 100%;
+    height: 100%;
+}
+
+
+.quantity-input {
+    width: 100%; /* Fill toàn bộ chiều rộng */
+    box-sizing: border-box; /* Đảm bảo không tràn */
+    border: 0px solid #ced4da; /* Giao diện giống Bootstrap */
+    padding: 0.375rem 0.75rem; /* Padding mặc định */
+    text-align: center; /* Căn giữa chữ số trong input */
+    min-height: 100%; /* Chiều cao cố định để căn giữa dọc */
+    line-height: 38px; /* Căn giữa dọc */
+}
+
+
+.note-textarea {
+    width: 100%;
+    min-height: 100px;
+    box-sizing: border-box;
+    border: 0px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    resize: none;
+}
+
+/* Đảm bảo ô td căn giữa nội dung */
+.table td {
+    vertical-align: middle; /* Căn giữa dọc nội dung trong td */
+}
+
+.quantity-cell {
+    max-width: 100px; /* Giới hạn chiều rộng tối đa của td */
+    width: 100px; /* Đặt chiều rộng cố định để đồng bộ */
+    padding: 0px; /* Giữ padding 0 như inline style */
+    vertical-align: middle; /* Căn giữa dọc */
+}
+
+    
+

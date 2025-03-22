@@ -17,6 +17,7 @@ namespace ManagementCafe.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            ViewData["ErrorMessage"] = "";
             return View();
         }
 
@@ -24,39 +25,61 @@ namespace ManagementCafe.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Login(IFormCollection infor)
-        {   
+        {
             var listuser = db.Users.ToList();
+            string usernameInput = infor["Username"];
+            string passwordInput = infor["Password"];
 
-            if (!ModelState.IsValid)
+            // Kiểm tra dữ liệu đầu vào
+            if (string.IsNullOrEmpty(usernameInput) || string.IsNullOrEmpty(passwordInput))
             {
-                return View(infor);
+                ViewData["ErrorMessage"] = "Vui lòng nhập đầy đủ thông tin đăng nhập.";
+                return View();
             }
 
-            // Kiểm tra đăng nhập
-            User u = new User();   
-            foreach (var user in listuser) {
-                if (user.Email == infor["Username"] || user.Phone == infor["Username"]) {
-                   u = user;
-                }
-            }
-            if (u != null){
-                if (u.Pass == infor["Password"])
+            // Tìm người dùng theo email hoặc số điện thoại
+            var user = listuser.FirstOrDefault(u => u.Email == usernameInput || u.Phone == usernameInput);
+
+            if (user != null)
+            {
+                if (user.Pass == passwordInput) // So sánh mật khẩu
                 {
-                    string ujson = JsonConvert.SerializeObject(u);
-                    HttpContext.Session.SetString("AccountLogOn", ujson);
-                    // Session["AccountLogOn"] = u;
-                    return RedirectToAction("Index", "Home");
+                    string ujson = JsonConvert.SerializeObject(user);
+                    if (user.Role.Equals("customer"))
+                    {
+                        HttpContext.Session.SetString("AccountLogOn", ujson);
+                        return RedirectToAction("Index", "Home");
+                    }
+                    else if(user.Role.Equals("staff"))
+                    {
+                        HttpContext.Session.SetString("AccountLogOn", ujson);
+                        return RedirectToAction("Order", "Staff");
+                    }
+                    else
+                    {
+                        ViewData["ErrorMessage"] = "Admin";
+                        return View();
+                        //return RedirectToAction("Index", "Home");
+                    }
+
                 }
                 else
                 {
-                    return View(); 
+                    ViewData["ErrorMessage"] = "Mật khẩu không đúng.";
+                    return View();
                 }
             }
             else
             {
+                ViewData["ErrorMessage"] = "Tên đăng nhập không tồn tại.";
                 return View();
             }
-           
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("AccountLogOn");
+            return RedirectToAction("Index", "Home");
         }
 
         // Phương thức giả lập kiểm tra thông tin người dùng
@@ -119,5 +142,7 @@ namespace ManagementCafe.Controllers
             // Giả lập: chỉ in ra console
             Console.WriteLine($"Registered: {model.FullName}, {model.Email}, {model.Gender}");
         }
+
+        
     }
 }
