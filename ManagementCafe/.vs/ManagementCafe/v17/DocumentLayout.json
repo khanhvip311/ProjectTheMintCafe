@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\",
+  "WorkspaceRootPath": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|d:\\doanchuyennganh\\main\\managementcafe-main\\managementcafe\\managementcafe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|d:\\doanchuyennganh\\main\\managementcafe-main\\managementcafe\\managementcafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|d:\\doanchuyennganh\\main\\managementcafe-main\\managementcafe\\managementcafe\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\models\\managementcafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\models\\managementcafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|d:\\doanchuyennganh\\main\\managementcafe-main\\managementcafe\\managementcafe\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|g:\\tdmu\\doanchuyennganh\\managementcafe-main\\managementcafe\\managementcafe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|d:\\doanchuyennganh\\main\\managementcafe-main\\managementcafe\\managementcafe\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|d:\\doanchuyennganh\\main\\managementcafe-main\\managementcafe\\managementcafe\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FCFC98-3FA1-44FA-834A-9F4BE3464015}|ManagementCafe\\ManagementCafe.csproj|solutionrelative:managementcafe\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ManagementCafe\\Models\\User.cs",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Models\\User.cs",
-              "RelativeToolTip": "ManagementCafe\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ManagementCafe\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ManagementCafe\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:25:28.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManagementCafeContext.cs",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Models\\ManagementCafeContext.cs",
-              "RelativeDocumentMoniker": "ManagementCafe\\Models\\ManagementCafeContext.cs",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Models\\ManagementCafeContext.cs",
-              "RelativeToolTip": "ManagementCafe\\Models\\ManagementCafeContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwCEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:19:55.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\appsettings.json",
-              "RelativeDocumentMoniker": "ManagementCafe\\appsettings.json",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\appsettings.json",
-              "RelativeToolTip": "ManagementCafe\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T20:16:36.985Z",
+              "WhenOpened": "2025-03-24T15:59:48.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Program.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Program.cs",
               "RelativeDocumentMoniker": "ManagementCafe\\Program.cs",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Program.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Program.cs",
               "RelativeToolTip": "ManagementCafe\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:07:11.494Z",
+              "WhenOpened": "2025-03-24T15:21:52.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ManagementCafe\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ManagementCafe\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T15:05:49.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "ManagementCafe\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "ManagementCafe\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T15:05:21.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ManagementCafe\\Controllers\\AccountController.cs",
-              "ToolTip": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ManagementCafe\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:03:28.421Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAYwPoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T14:49:38.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "ManagementCafe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\DoAnChuyenNganh\\Main\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "ManagementCafe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowEgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T13:23:09.291Z",
               "EditorCaption": ""
             }
           ]

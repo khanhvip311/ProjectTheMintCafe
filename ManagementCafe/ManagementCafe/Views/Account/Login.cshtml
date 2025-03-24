@@ -1,8 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
 }
+
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
 
 <main class="main-content">
     <div class="login-container row">
@@ -19,11 +20,14 @@
 
                 <form asp-action="Login" asp-controller="Account" method="post">
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="username" name="Username" placeholder="Email/Số điện thoại/Tên đăng nhập" required>
+                        <input type="text" class="form-control" id="username" name="Username"
+                               placeholder="Email/Số điện thoại/Tên đăng nhập"
+                               value="@ViewData["Username"]" required>
                     </div>
 
                     <div class="mb-3 position-relative">
-                        <input type="password" class="form-control" id="passwordInput" name="Password" placeholder="Mật khẩu" required>
+                        <input type="password" class="form-control" id="passwordInput" name="Password"
+                               placeholder="Mật khẩu" required>
                     </div>
                     <input class="btn-check" type="checkbox" id="showPassword" title="Hiển thị mật khẩu" />
                     <label for="showPassword">Hiển thị mật khẩu</label>
@@ -42,14 +46,17 @@
 
                 <div class="mb-3">
                     <button class="btn btn-primary social-btn w-100 mb-2">
-                        <i class="fab fa-facebook-f"></i> Đăng nhập với Facebook
+                        <i class="fab fa-facebook-f"></i> <span class="conta d-none d-lg-inline">Đăng nhập với Facebook</span>
                     </button>
                     <button class="btn btn-danger social-btn w-100">
-                        <i class="fab fa-google"></i> Đăng nhập với Google
+                        <i class="fab fa-google"></i> <span class="d-none d-lg-inline">Đăng nhập với Google</span>
                     </button>
                 </div>
 
-                <p class="text-center text-muted mb-0">Bạn chưa có tài khoản? <a asp-action="Register" asp-controller="Account" class="text-decoration-none text-primary">Đăng ký ngay</a></p>
+                <p class="text-center text-muted mb-0">
+                    Bạn chưa có tài khoản?
+                    <a asp-action="Register" asp-controller="Account" class="text-decoration-none text-primary">Đăng ký ngay</a>
+                </p>
             </div>
         </div>
     </div>

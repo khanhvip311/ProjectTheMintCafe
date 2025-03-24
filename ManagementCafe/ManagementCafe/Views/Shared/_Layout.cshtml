@@ -1,4 +1,4 @@
-﻿
+﻿@using Newtonsoft.Json
 <!DOCTYPE html>
 <html lang="en">
 
@@ -137,12 +137,12 @@
                 <div class="container">
                     <div class="primary-menu">
                         <div class="logo">
-                            <a href="index.html"><img class="logonav" src="~/assets/images/logo/logo1500x500_2.png" alt="logoA"></a>
+                            <a href="@Url.Action("Index", "Home")"><img class="logonav" src="~/assets/images/logo/logo1500x500_2.png" alt="logoA"></a>
                         </div>
                         <div class="main-area">
                             <div class="main-menu">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="@Url.Action("Index", "Home")">Home</a></li>
                                     <li>
                                         <a href="#">Pages</a>
                                         <ul>
@@ -176,7 +176,21 @@
                                             <li><a href="cart-page.html">Cart Page</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us.html">Contact</a></li>
+                                    @if (Context.Session.GetString("AccountLogOn") != null)
+                                    {
+                                        string userJson = Context.Session.GetString("AccountLogOn");
+                                        var u = JsonConvert.DeserializeObject<User>(userJson);
+                                        if (u.Role.Equals("customer"))
+                                        {
+                                            <li><a href="@Url.Action("Booking", "Customer")">Booking</a></li>
+
+                                        }
+                                        else if (u.Role.Equals("staff"))
+                                        {
+                                            <li><a href="@Url.Action("Order", "Staff")">Order</a></li>
+
+                                        }
+                                    }
                                 </ul>
                             </div>
                             <div class="cart-search">
@@ -186,139 +200,19 @@
                                         <div class="cart-icon">
                                             <i class="icofont-cart-alt"></i>
                                         </div>
-                                        <div class="count-item">04</div>
-                                        <div class="cart-content">
-                                            <div class="cart-title">
-                                                <div class="add-item">4 Items Added</div>
-                                                <div class="list-close"><a href="#">Close</a></div>
-                                            </div>
-                                            <div class="cart-scr scrollbar">
-                                                <div class="cart-con-item">
-                                                    <div class="cart-item">
-                                                        <div class="cart-inner">
-                                                            <div class="cart-top">
-                                                                <div class="thumb">
-                                                                    <a href="#"><img src="~/assets/images/product/01.jpg" alt=""></a>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <a href="#">Split Remedy Split End Shampoo</a>
-                                                                </div>
-                                                                <div class="remove-btn">
-                                                                    <a href="#"><i class="icofont-close"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cart-bottom">
-                                                                <div class="sing-price">Tk. 140</div>
-                                                                <div class="cart-plus-minus">
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
-                                                                    <div class="inc qtybutton">+</div>
-                                                                    <div class="inc qtybutton">+</div>
-                                                                </div>
-                                                                <div class="total-price">Tk. 280.00</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="cart-item">
-                                                        <div class="cart-inner">
-                                                            <div class="cart-top">
-                                                                <div class="thumb">
-                                                                    <a href="#"><img src="~/assets/images/product/02.jpg" alt=""></a>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <a href="#">Split Remedy Split End Shampoo</a>
-                                                                </div>
-                                                                <div class="remove-btn">
-                                                                    <a href="#"><i class="icofont-close"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cart-bottom">
-                                                                <div class="sing-price">Tk. 140</div>
-                                                                <div class="cart-plus-minus">
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
-                                                                    <div class="inc qtybutton">+</div>
-                                                                    <div class="inc qtybutton">+</div>
-                                                                </div>
-                                                                <div class="total-price">Tk. 280.00</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="cart-item">
-                                                        <div class="cart-inner">
-                                                            <div class="cart-top">
-                                                                <div class="thumb">
-                                                                    <a href="#"><img src="~/assets/images/product/03.jpg" alt=""></a>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <a href="#">Split Remedy Split End Shampoo</a>
-                                                                </div>
-                                                                <div class="remove-btn">
-                                                                    <a href="#"><i class="icofont-close"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cart-bottom">
-                                                                <div class="sing-price">Tk. 140</div>
-                                                                <div class="cart-plus-minus">
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
-                                                                    <div class="inc qtybutton">+</div>
-                                                                    <div class="inc qtybutton">+</div>
-                                                                </div>
-                                                                <div class="total-price">Tk. 280.00</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="cart-item">
-                                                        <div class="cart-inner">
-                                                            <div class="cart-top">
-                                                                <div class="thumb">
-                                                                    <a href="#"><img src="~/assets/images/product/04.jpg" alt=""></a>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <a href="#">Split Remedy Split End Shampoo</a>
-                                                                </div>
-                                                                <div class="remove-btn">
-                                                                    <a href="#"><i class="icofont-close"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cart-bottom">
-                                                                <div class="sing-price">Tk. 140</div>
-                                                                <div class="cart-plus-minus">
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <div class="dec qtybutton">-</div>
-                                                                    <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
-                                                                    <div class="inc qtybutton">+</div>
-                                                                    <div class="inc qtybutton">+</div>
-                                                                </div>
-                                                                <div class="total-price">Tk. 280.00</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cart-scr-bottom">
-                                                <ul>
-                                                    <li>
-                                                        <div class="title">Subtotal</div>
-                                                        <div class="price">Tk. 1045.00</div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="title">Shipping</div>
-                                                        <div class="price">Tk. 40.00</div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="title">Cart Total</div>
-                                                        <div class="price">Tk. 1085.00</div>
-                                                    </li>
-                                                </ul>
-                                                <a href="#" class="food-btn"><span>Place Order</span></a>
-                                            </div>
-                                        </div>
                                     </li>
+                                    <li class="infomation">
+                                        <i class="icofont-user-alt-5"></i>
+                                    </li>
+                                    @if (Context.Session.GetString("AccountLogOn") != null)
+                                    {
+                                        <li class="login-icon">
+                                            <a href="@Url.Action("Logout", "Account")" style="color:red;"><i class="icofont-login"></i>
+
+                                            </a>
+                                        </li>
+                                    }
+
                                 </ul>
                             </div>
                         </div>
@@ -331,6 +225,31 @@
 
     @RenderBody()
 
+    <!-- link area start -->
+    <div class="news_link">
+        <div class="container">
+            <div class="order-content" style="margin-right: 200px;">
+                <div class="content-logo" style="align-content: center;">
+                    <a href="#">
+                        <img src="~/assets/images/logo/logo1500x500_3-removebg-preview.png" alt="logo">
+                        <p>Good Food For Good Helts</p>
+                    </a>
+                </div>
+                <div class="content-link">
+                    <ul>
+                        <li>
+                            <h5>Work with best resturant theme</h5>
+                        </li>
+                        <li>
+                            <a href="#" class="food-btn style-2">
+                                <span>Order Now</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- footer area start -->
     <footer class="padding-tb" style="background-image: url(assets/css/bg-image/footer-bg.jpg);">
         <div class="container">
@@ -426,35 +345,6 @@
     </footer>
     <!-- footer area ends -->
     <!-- footer menu start -->
-    <div class="fotter-header">
-        <header>
-            <div class="footer-bg">
-                <div class="container">
-                    <div class="header-item">
-                        <div class="header-logo">
-                            <p>&copy; 2020<a href="index.html">FoodBuzz</a>Designed by<a href="https://themeforest.net/user/labartisan">Labartisan</a></p>
-                        </div>
-                        <div class="header-menu d-none d-lg-block">
-                            <nav class="primary-menu">
-                                <div class="main-menu-area">
-                                    <ul class="main-menu">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Food Menu</a></li>
-                                        <li><a href="#">Pages</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Shop</a></li>
-                                        <li><a href="#">Elements</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- <div class="footer-bottom"></div> -->
-    </div>
 
     @RenderSection("Scripts", required: false)
 

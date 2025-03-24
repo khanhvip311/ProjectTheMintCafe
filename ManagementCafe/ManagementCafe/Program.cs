@@ -39,6 +39,13 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+// Cấu hình route Area
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+);
+
+// Cấu hình route mặc định
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=Login}/{id?}")
