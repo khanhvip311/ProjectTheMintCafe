@@ -249,7 +249,7 @@ aside {
 .scrollToTop {
   position: fixed;
   bottom: -30%;
-  right: 5%;
+  left: 5%;
   z-index: 9;
   width: 40px;
   height: 40px;

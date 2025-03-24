@@ -1,6 +1,7 @@
 ﻿using ManagementCafe.Models;
 using ManagementCafe.Models.FillModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Diagnostics;
 
@@ -49,6 +50,19 @@ namespace ManagementCafe.Controllers
             Debug.WriteLine("JSON Products: " + jsonProducts);
 
             return Json(products);
+        }
+
+        [HttpGet]
+        public IActionResult GetProductById(int productId)
+        {
+            var product = db.Products.FirstOrDefault(p => p.ProductId == productId);
+
+            if (product == null)
+            {
+                return Json(new { success = false });
+            }
+
+            return Json(new { success = true, product });
         }
 
     }

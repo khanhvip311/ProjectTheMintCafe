@@ -18,7 +18,7 @@
                 <div class="page-title text-center">
                     <h3>Our Products page</h3>
                     <ul class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="@Url.Action("Index", "Home")">Home</a></li>
                         <li>Shop Page</li>
                     </ul>
                 </div>
@@ -26,10 +26,10 @@
         </section>
         <!-- Page Header Section Ending Here -->
         <!-- Shop Page Section Start Here -->
-        <div class="shop-page single padding-tb bg-fa">
+        <div class="shop-page single padding-tb bg-fa" style="height: auto">
             <div class="container" style="max-width: 100% !important;">
                 <div class="row">
-                    <div class="col-2 col-sm-2 col-xl-1 category-list" style="background: white; border-radius: 0 10px 10px 0; padding: 0px 0px 10px 0; height: 700px; overflow-y: auto;">
+                    <div class="col-2 col-sm-2 col-xl-1 category-list" style="background: white; border-radius: 0 10px 10px 0; padding: 0px 0px 10px 0; height: auto; overflow-y: auto;">
                         <table class="table align-items-center table-hover">
                             <tr>
                                 <th>
@@ -48,60 +48,7 @@
                             }
                         </table>
                     </div>
-                    <script>
-                            $(document).ready(function () {
-                            $(".category-link").click(function (e) {
-                                e.preventDefault();
-                                var categoryId = $(this).attr("data-category");
-
-                                $.ajax({
-                                    url: "/Staff/FilterProducts",
-                                    type: "GET",
-                                    data: { categoryId: categoryId },
-                                    success: function (response) {
-                                        console.log("Response:", response); // Kiểm tra JSON
-                                        var productContainer = $(".shop-product-wrap");
-                                        productContainer.empty();
-
-                                        $.each(response, function (index, product) {
-                                            var productHtml = `
-                                                <div class="col-xl-3 col-md-4 col-sm-4 col-4">
-                                                    <div class="product-item">
-                                                        <div class="product-thumb">
-                                                            <img src="/assets/images/product/${product.image}" alt="${product.name}">
-                                                            <div class="product-action-link">
-                                                                <a href="/assets/images/product/${product.image}" data-rel="lightcase"><i class="icofont-eye"></i></a>
-                                                                <a href="#"><i class="icofont-heart-alt"></i></a>
-                                                                <a href="#"><i class="icofont-cart-alt"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="product-content">
-                                                            <input type="hidden" value="${product.productId}" />
-                                                            <div class="product-title">
-                                                                <h6><a href="#">${product.name}</a></h6>
-                                                                <span class="price">${new Intl.NumberFormat().format(product.price)} VND</span>
-                                                                <div class="rating">
-                                                                    <i class="icofont-star"></i>
-                                                                    <i class="icofont-star"></i>
-                                                                    <i class="icofont-star"></i>
-                                                                    <i class="icofont-star"></i>
-                                                                    <i class="icofont-star"></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>`;
-                                            productContainer.append(productHtml);
-                                        });
-                                    },
-                                    error: function (xhr, status, error) {
-                                        console.log("Error: " + error);
-                                        alert("Có lỗi xảy ra khi tải sản phẩm!");
-                                    }
-                                });
-                            });
-                        });
-                    </script>
+                    
 
 
                     <div class="section-wrapper col-10 col-md-10 col-xl-7">
@@ -137,37 +84,16 @@
 
                                 </div>
                             }
-
                         </div>
-
-                        @* <div class="paginations">
-                            <ul class="d-flex flex-wrap justify-content-center">
-                                <li>
-                                    <a href="#">1</a>
-                                </li>
-                                <li class="d-none d-sm-block">
-                                    <a href="#">2</a>
-                                </li>
-                                <li class="d-none d-sm-block">
-                                    <a href="#">3</a>
-                                </li>
-                                <li>
-                                    <a class="dot">...</a>
-                                </li>
-                                <li class="d-none d-sm-block">
-                                    <a href="#">9</a>
-                                </li>
-                                <li class="d-none d-sm-block">
-                                    <a href="#">10</a>
-                                </li>
-                                <li>
-                                    <a href="#">11</a>
-                                </li>
-                            </ul>
-                        </div> *@
                     </div>
+
+
+                    <script src="/js/Order.js"></script>
+
+
+
                     <div class="col col-xl-4 choose-list" style="background: white; border-radius: 10px; padding: 0px;">
-                        <div class="table-responsive" style="height: 600px; overflow-y: auto; border-radius:10px;">
+                        <div class="table-responsive" style="min-height: 600px; max-height:700px; overflow-y: auto; border-radius:10px;">
                             <table class="table table-bordered">
                                 <thead style="position: sticky; top: 0; background: #92d0b7; z-index: 2;">
                                     <tr>
@@ -179,130 +105,24 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>
-                                            Trà sữa
-                                            <input type="hidden" value="1" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="2" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Ít đường</textarea></td>
-                                        <td>30,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>
-                                            Trà đào
-                                            <input type="hidden" value="2" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="1" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea"></textarea></td>
-                                        <td>35,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>
-                                            Cà phê sữa
-                                            <input type="hidden" value="3" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="3" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Không đá</textarea></td>
-                                        <td>25,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>
-                                            Nước ép cam
-                                            <input type="hidden" value="4" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="1" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Không đường</textarea></td>
-                                        <td>40,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>
-                                            Sinh tố bơ
-                                            <input type="hidden" value="5" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="2" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Thêm sữa đặc</textarea></td>
-                                        <td>45,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>
-                                            Soda việt quất
-                                            <input type="hidden" value="6" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="1" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Thêm đá</textarea></td>
-                                        <td>30,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>
-                                            Sữa chua nếp cẩm
-                                            <input type="hidden" value="7" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="2" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Không thêm đá</textarea></td>
-                                        <td>35,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>
-                                            Matcha latte
-                                            <input type="hidden" value="8" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="1" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea"></textarea></td>
-                                        <td>40,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>
-                                            Milo dầm
-                                            <input type="hidden" value="9" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="1" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Nhiều milo</textarea></td>
-                                        <td>38,000đ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>
-                                            Hồng trà sữa
-                                            <input type="hidden" value="10" class="product-id" />
-                                        </td>
-                                        <td class="quantity-cell" style="padding: 0px;">
-                                            <input type="number" class="quantity-input" value="2" min="1" step="1" />
-                                        </td>
-                                        <td style="padding: 0px;"><textarea class="note-textarea">Ít đá</textarea></td>
-                                        <td>32,000đ</td>
-                                    </tr>
+                                  
                                 </tbody>
                             </table>
                         </div>
+                        <hr />
+                        <div id="paymethod">
+                            <label for="paymethod">Phương thức thanh toán: </label>
+                            <select name="paymethod">
+                                <option value="volvo" selected>Tiền mặt</option>
+                                <option value="saab">Chuyển khoản</option>
+                          
+                            </select>
+                            
+                        </div>
+                       
                         <div class="price-area">
+                           
+                            <div class="total-price">Tổng cộng: <span id="totalPrice">0₫</span></div>
                             <button type="button" id="btnXoa">Xóa</button>
                             <button type="button" id="btnXacNhan">Xác nhận</button>
                         </div>
@@ -311,6 +131,7 @@
             </div>
         </div>
     </div>
+    <hr />
     <!-- Shop Page Section Ending Here -->
     <!-- scrollToTop start here -->
     <a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i></a>

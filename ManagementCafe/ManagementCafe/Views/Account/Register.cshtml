@@ -41,13 +41,13 @@
                         <input type="text" class="form-control" name="Address" placeholder="Địa chỉ" required>
                     </div>
 
-                    <div class="mb-3">
-                        <select class="form-control" name="Gender" id="gender" required>
-                            <option selected disabled value="">Giới tính</option>
-                            <option value="Nam">Nam</option>
-                            <option value="Nữ">Nữ</option>
-                        </select>
-                    </div>
+                    @* <div class="mb-3"> *@
+                    @*     <select class="form-control" name="Gender" id="gender" required> *@
+                    @*         <option selected disabled value="">Giới tính</option> *@
+                    @*         <option value="Nam">Nam</option> *@
+                    @*         <option value="Nữ">Nữ</option> *@
+                    @*     </select> *@
+                    @* </div> *@
 
                     @if (!string.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
                     {

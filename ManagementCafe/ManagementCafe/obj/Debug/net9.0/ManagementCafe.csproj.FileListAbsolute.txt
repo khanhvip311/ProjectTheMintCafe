@@ -1074,4 +1074,5 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\De
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.pdb
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.genruntimeconfig.cache
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ref\ManagementCafe.dll
-G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\pvx4qonfxi-n3o1yqjf2d.gz
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\ook6e7wy0j-sg7uhn3tky.gz
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\pvx4qonfxi-es4j2l27vz.gz

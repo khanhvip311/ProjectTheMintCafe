@@ -20,7 +20,7 @@
     }
 
 .choose-list {
-    max-height: 700px;
+    max-height: 1200px;
 }
 
     .choose-list div table {
@@ -138,6 +138,18 @@
     width: 100px; /* Đặt chiều rộng cố định để đồng bộ */
     padding: 0px; /* Giữ padding 0 như inline style */
     vertical-align: middle; /* Căn giữa dọc */
+}
+
+.total-price, #paymethod {
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+#paymethod{
+    margin: 10px;
 }
 
     

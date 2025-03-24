@@ -5,10 +5,15 @@ using Newtonsoft.Json;
 namespace ManagementCafe.Controllers
 {
     public class AccountController : Controller
-    {   
+    {
         ManagementCafeContext db = new ManagementCafeContext();
 
         public IActionResult PersonalInfo()
+        {
+            return View();
+        }
+
+        public IActionResult ForgotPass()
         {
             return View();
         }
@@ -50,7 +55,7 @@ namespace ManagementCafe.Controllers
                         HttpContext.Session.SetString("AccountLogOn", ujson);
                         return RedirectToAction("Index", "Home");
                     }
-                    else if(user.Role.Equals("staff"))
+                    else if (user.Role.Equals("staff"))
                     {
                         HttpContext.Session.SetString("AccountLogOn", ujson);
                         return RedirectToAction("Order", "Staff");
@@ -93,56 +98,72 @@ namespace ManagementCafe.Controllers
         [HttpGet]
         public IActionResult Register()
         {
+            ViewData["ErrorMessage"] = "";
             return View();
         }
 
         // POST: /Account/Register
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Register(RegisterViewModel model)
+        public IActionResult Register(IFormCollection model)
         {
+            // Kiểm tra tính hợp lệ của model
             if (!ModelState.IsValid)
             {
+                ViewData["ErrorMessage"] = "Model không hợp lệ!";
                 return View(model);
             }
 
-            // Kiểm tra mật khẩu khớp nhau
-            if (model.Password != model.RePassword)
+            // Kiểm tra mật khẩu và xác nhận mật khẩu có khớp không
+            if (model["Password"] != model["RePassword"])
             {
                 ViewData["ErrorMessage"] = "Mật khẩu và mật khẩu nhập lại không khớp!";
                 return View(model);
             }
 
-            // Kiểm tra xem email đã tồn tại chưa (giả lập)
-            if (IsEmailRegistered(model.Email))
+            // Kiểm tra xem email hoặc số điện thoại đã tồn tại chưa
+            var existingEmail = db.Users.FirstOrDefault(u => u.Email.Equals(model["Email"].ToString()));
+            if (existingEmail != null)
             {
                 ViewData["ErrorMessage"] = "Email đã được đăng ký!";
                 return View(model);
             }
 
-            // Lưu thông tin người dùng (giả lập)
-            SaveUser(model);
+            var existingPhone = db.Users.FirstOrDefault(u => u.Phone.Equals(model["PhoneNumber"]));
+            if (existingPhone != null)
+            {
+                ViewData["ErrorMessage"] = "Số điện thoại đã được đăng ký!";
+                return View(model);
+            }
 
-            // Đăng ký thành công, chuyển hướng đến trang đăng nhập
-            return RedirectToAction("Login", "Account");
+            //// Hash mật khẩu trước khi lưu
+            //string hashedPassword = BCrypt.Net.BCrypt.HashPassword(model["Password"]);
+
+            // Tạo người dùng mới
+            var newUser = new User
+            {
+                UserId = db.Users.Count() + 1,
+                Name = model["FullName"],
+                Phone = model["PhoneNumber"],
+                Email = model["Email"],
+                Address = model["Address"],
+                Pass = model["Password"],
+                //Gender = model.Gender,
+                Role = "customer" // Vai trò mặc định là customer
+            };
+
+            // Thêm người dùng vào cơ sở dữ liệu
+            try
+            {
+                db.Users.Add(newUser);
+                db.SaveChanges();
+                return RedirectToAction("Login", "Account");
+            }
+            catch (Exception ex)
+            {
+                ViewData["ErrorMessage"] = $"Đăng ký thất bại: {ex.Message}";
+                return View(model);
+            }
         }
-
-        // Phương thức giả lập kiểm tra email
-        private bool IsEmailRegistered(string email)
-        {
-            // Trong thực tế, kiểm tra trong database
-            // Giả lập: trả về false (chưa tồn tại)
-            return false;
-        }
-
-        // Phương thức giả lập lưu người dùng
-        private void SaveUser(RegisterViewModel model)
-        {
-            // Trong thực tế, lưu vào database
-            // Giả lập: chỉ in ra console
-            Console.WriteLine($"Registered: {model.FullName}, {model.Email}, {model.Gender}");
-        }
-
-        
     }
 }

@@ -45,6 +45,7 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroo
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\js\Order.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\css\Staff\Order.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\js\site.js
@@ -135,6 +136,7 @@ wwwroot\css\Register.css
 wwwroot\css\site.css
 wwwroot\css\Staff\Order.css
 wwwroot\favicon.ico
+wwwroot\js\Order.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
