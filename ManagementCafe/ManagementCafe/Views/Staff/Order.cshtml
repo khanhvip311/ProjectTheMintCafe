@@ -102,6 +102,7 @@
                                         <th>Số lượng</th>
                                         <th>Ghi chú</th>
                                         <th>Đơn giá</th>
+                                        <th>Hành động</th> <!-- Thêm cột Hành động -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -110,11 +111,15 @@
                             </table>
                         </div>
                         <hr />
+                        <div id="discount">
+                            <label for="discount">Chiết khấu (%): </label>
+                            <input type="number" id="discountvalue" value="0" placeholder="Nhập % giảm giá" min="0"/>
+                        </div>
                         <div id="paymethod">
                             <label for="paymethod">Phương thức thanh toán: </label>
                             <select name="paymethod">
-                                <option value="volvo" selected>Tiền mặt</option>
-                                <option value="saab">Chuyển khoản</option>
+                                <option value="1" selected>Tiền mặt</option>
+                                <option value="2">Chuyển khoản</option>
                           
                             </select>
                             
@@ -123,8 +128,9 @@
                         <div class="price-area">
                            
                             <div class="total-price">Tổng cộng: <span id="totalPrice">0₫</span></div>
+                            <input type="hidden" name="total-price-value" id="total-price-value" value="" />
                             <button type="button" id="btnXoa">Xóa</button>
-                            <button type="button" id="btnXacNhan">Xác nhận</button>
+                            <button type="button" id="btnXacNhan" >Xác nhận</button>
                         </div>
                     </div>
                 </div>

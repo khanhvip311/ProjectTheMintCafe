@@ -11,6 +11,8 @@ public partial class BillDetail
 
     public int? ProductId { get; set; }
 
+    public int? Quantity { get; set; }
+
     public string? Note { get; set; }
 
     public virtual Bill? Bill { get; set; }

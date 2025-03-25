@@ -9,11 +9,17 @@ public partial class Bill
 
     public DateOnly? Date { get; set; }
 
+    public int Discount { get; set; }
+
+    public decimal? Price { get; set; }
+
     public decimal? TotalPrice { get; set; }
 
     public bool? Status { get; set; }
 
     public int? UserId { get; set; }
+
+    public int PaymentMethod { get; set; }
 
     public virtual ICollection<BillDetail> BillDetails { get; set; } = new List<BillDetail>();
 

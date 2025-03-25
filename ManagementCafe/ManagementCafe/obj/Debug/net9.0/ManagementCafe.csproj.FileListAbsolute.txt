@@ -1067,12 +1067,12 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\De
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ManagementCafe.props
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ManagementCafe.props
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets.pack.json
-G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\Manageme.4C8A2E47.Up2Date
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.dll
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\refint\ManagementCafe.dll
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.pdb
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.genruntimeconfig.cache
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ref\ManagementCafe.dll
-G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\ook6e7wy0j-sg7uhn3tky.gz
-G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\pvx4qonfxi-es4j2l27vz.gz
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\pvx4qonfxi-mheoq5yx2m.gz
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\ook6e7wy0j-eheaqba7y6.gz
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
