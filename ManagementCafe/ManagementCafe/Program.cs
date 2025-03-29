@@ -1,8 +1,15 @@
 ﻿using ManagementCafe.Models;
+using ManagementCafe.Models.Momo;
+using ManagementCafe.Services.Momo;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//Kết nối MomoAPI
+builder.Services.Configure<MomoOptionModel>(builder.Configuration.GetSection("MomoAPI"));
+builder.Services.AddScoped<IMomoService, MomoService>();
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -15,6 +22,9 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+
+
+
 
 // Cấu hình Data Protection
 builder.Services.AddDataProtection()

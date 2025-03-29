@@ -1254,8 +1254,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>eheaqba7y6</Fingerprint>
-      <Integrity>0i0LtF+FZN9Jt1r78lsyK3PGpkY0fnO93fdnW1Z7U/c=</Integrity>
+      <Fingerprint>imgx62r7b8</Fingerprint>
+      <Integrity>alBsJE96fYYRJ64vOKQ90TGfHPLcFms1umIy5u74ojA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Order.js'))</OriginalItemSpec>

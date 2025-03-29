@@ -1074,5 +1074,6 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\De
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.genruntimeconfig.cache
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ref\ManagementCafe.dll
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\pvx4qonfxi-mheoq5yx2m.gz
-G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\ook6e7wy0j-eheaqba7y6.gz
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\bin\Debug\net9.0\RestSharp.dll
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\ook6e7wy0j-imgx62r7b8.gz

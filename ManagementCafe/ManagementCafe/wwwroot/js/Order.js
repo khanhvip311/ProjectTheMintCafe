@@ -1,4 +1,5 @@
 ﻿$(document).ready(function () {
+
     //sự kiện phân loại sản phẩm
     $(".category-link").click(function (e) {
         e.preventDefault();
@@ -202,9 +203,22 @@
 
     // Hàm cập nhật trạng thái nút Xác nhận
     function updateConfirmButtonState() {
-        var hasItems = $('.choose-list tbody tr').length > 0;
-        $('#btnXacNhan').prop('disabled', !hasItems);
+        var paymentMethod = $('select[name="paymethod"]').val();
+        if (paymentMethod == "1") {
+            $('#btnXacNhan').prop('disabled', false); // Kích hoạt nút
+            $('#btnMomo').hide(); // Ẩn nút
+
+        } else if (paymentMethod == "2") {
+            $('#btnXacNhan').prop('disabled', true); // Vô hiệu hóa nút
+            $('#btnMomo').show(); // Hiển thị nút
+
+        }
     }
+    updateConfirmButtonState();
+    // Thiết lập sự kiện change cho thẻ select
+    $('select[name="paymethod"]').on('change', function () {
+        updateConfirmButtonState();
+    });
 
     // Xử lý nút xác nhận
     $('#btnXacNhan').on('click', function () {
@@ -281,5 +295,71 @@
             }
         });
     });
+
+    function updateCartData() {
+        var billDetails = [];
+        $('.choose-list tbody tr').each(function () {
+            var $row = $(this);
+            var productId = parseInt($row.find('.product-id').val());
+            var quantity = parseInt($row.find('.quantity-input').val()) || 0;
+            var note = $row.find('.note-textarea').val() || '';
+
+            if (quantity > 0) {
+                billDetails.push({
+                    ProductId: productId,
+                    Quantity: quantity,
+                    Note: note
+                });
+            }
+        });
+
+        var totalPrice = parseFloat($('#total-price-value').val()) || 0;
+        var price = parseFloat($('#total-price-value').data('price')) || 0;
+        var discountValue = parseInt($('#discountvalue').val()) || 0;
+        var paymentMethod = $('select[name="paymethod"]').val();
+        var paymentMethodValue = paymentMethod ? parseInt(paymentMethod) : 0;
+
+        var cartData = {
+            BillDetails: billDetails,
+            Price: price,
+            TotalPrice: totalPrice,
+            Discount: discountValue,
+            PaymentMethod: paymentMethodValue
+        };
+
+        $('#cartDataInput').val(JSON.stringify(cartData));
+        console.log('Cart Data Updated:', JSON.stringify(cartData, null, 2));
+    }
+
+
+     //Xử lý nút thanh toán momo
+    $('#btnMomo').on('click', function (e) {
+        e.preventDefault();
+        var billDetails = [];
+        $('.choose-list tbody tr').each(function () {
+            var $row = $(this);
+            var productId = parseInt($row.find('.product-id').val());
+            var quantity = parseInt($row.find('.quantity-input').val()) || 0;
+            var note = $row.find('.note-textarea').val() || '';
+
+            if (quantity > 0) {
+                billDetails.push({
+                    ProductId: productId,
+                    Quantity: quantity,
+                    Note: note
+                });
+            }
+        });
+
+        if (billDetails.length === 0) {
+            alert('Danh sách món trống! Vui lòng thêm món trước khi thanh toán.');
+            return;
+        }
+
+        updateCartData();
+        $(this).closest('form').submit();
+    });
    
 });
+
+

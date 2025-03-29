@@ -4,9 +4,38 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model FillOrder
-
 <script src="~/assets/js/jquery.js"></script>
 <link href="~/css/Staff/Order.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+@section Scripts {
+    <script>
+        // Kiểm tra TempData và hiển thị SweetAlert2
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <text>
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Thành công',
+                    text: '@Html.Raw(System.Web.HttpUtility.HtmlDecode(TempData["SuccessMessage"].ToString()))',
+                    confirmButtonText: 'OK'
+                });
+            </text>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <text>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Lỗi',
+                    text: '@Html.Raw(System.Web.HttpUtility.HtmlDecode(TempData["ErrorMessage"].ToString()))',
+                    confirmButtonText: 'OK'
+                });
+            </text>
+        }
+    </script>
+}
+
 <div>
     <div class="container" style="max-width: 100% !important; padding:0;">
 
@@ -88,7 +117,6 @@
                     </div>
 
 
-                    <script src="/js/Order.js"></script>
 
 
 
@@ -115,18 +143,21 @@
                             <label for="discount">Chiết khấu (%): </label>
                             <input type="number" id="discountvalue" value="0" placeholder="Nhập % giảm giá" min="0"/>
                         </div>
+
                         <div id="paymethod">
                             <label for="paymethod">Phương thức thanh toán: </label>
                             <select name="paymethod">
                                 <option value="1" selected>Tiền mặt</option>
-                                <option value="2">Chuyển khoản</option>
-                          
+                                <option value="2" >Chuyển khoản</option>
                             </select>
-                            
+                            <form method="POST" asp-action="SaveBillMomo" asp-controller="Staff">
+                                <input type="hidden" name="cartData" id="cartDataInput" />
+                                <br />
+                                <button class="btn btn-danger" id="btnMomo" type="submit">Pay with MoMo</button>
+                            </form>
                         </div>
                        
                         <div class="price-area">
-                           
                             <div class="total-price">Tổng cộng: <span id="totalPrice">0₫</span></div>
                             <input type="hidden" name="total-price-value" id="total-price-value" value="" />
                             <button type="button" id="btnXoa">Xóa</button>
@@ -144,7 +175,7 @@
     <!-- scrollToTop ending here -->
 
 
-
+    <script src="/js/Order.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/fontawesome.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
