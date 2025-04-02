@@ -989,7 +989,6 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\De
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\scopedcss\bundle\ManagementCafe.styles.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\scopedcss\projectbundle\ManagementCafe.bundle.scp.css
-G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\xmqtues86c-kbzxg5hyy0.gz
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\chun9imml8-j6qhm6n34v.gz
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\3uw4jkz351-7cbc5durl3.gz
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\4o6jutoj4n-yp60wsfefg.gz
@@ -1074,6 +1073,8 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\De
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ManagementCafe.genruntimeconfig.cache
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\ref\ManagementCafe.dll
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\pvx4qonfxi-mheoq5yx2m.gz
-G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\bin\Debug\net9.0\RestSharp.dll
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\ook6e7wy0j-imgx62r7b8.gz
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\xmqtues86c-k37xmvuteg.gz
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\obj\Debug\net9.0\compressed\hnhsipuvzl-yqez6abj1h.gz

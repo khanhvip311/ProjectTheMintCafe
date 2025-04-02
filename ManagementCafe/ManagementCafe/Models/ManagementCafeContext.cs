@@ -31,9 +31,11 @@ public partial class ManagementCafeContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<Voucher> Vouchers { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=eren\\eren;Initial Catalog=ManagementCafe;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=Eren\\EREN;Initial Catalog=ManagementCafe;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -62,7 +64,6 @@ public partial class ManagementCafeContext : DbContext
 
             entity.Property(e => e.BillDetailId).HasColumnName("BillDetailID");
             entity.Property(e => e.BillId).HasColumnName("BillID");
-            entity.Property(e => e.Note).HasColumnType("text");
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
 
             entity.HasOne(d => d.Bill).WithMany(p => p.BillDetails)
@@ -78,38 +79,41 @@ public partial class ManagementCafeContext : DbContext
 
         modelBuilder.Entity<Booking>(entity =>
         {
-            entity.HasKey(e => e.BookingId).HasName("PK__Booking__73951ACD8480BC67");
+            entity.HasKey(e => e.BookingId).HasName("PK__Booking__73951ACD7BAE921D");
 
             entity.ToTable("Booking");
 
-            entity.Property(e => e.BookingId)
-                .ValueGeneratedNever()
-                .HasColumnName("BookingID");
+            entity.Property(e => e.BookingId).HasColumnName("BookingID");
             entity.Property(e => e.BookingTime).HasColumnType("datetime");
-            entity.Property(e => e.Note).HasColumnType("text");
+            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.TableId).HasColumnName("TableID");
+            entity.Property(e => e.TotalPrice).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.UserId).HasColumnName("UserID");
+            entity.Property(e => e.Voucher)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .IsFixedLength();
 
             entity.HasOne(d => d.Table).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.TableId)
-                .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK__Booking__TableID__48CFD27E");
 
             entity.HasOne(d => d.User).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK__Booking__UserID__49C3F6B7");
+
+            entity.HasOne(d => d.VoucherNavigation).WithMany(p => p.Bookings)
+                .HasForeignKey(d => d.Voucher)
+                .HasConstraintName("FK_Booking_Vouchers");
         });
 
         modelBuilder.Entity<BookingDetail>(entity =>
         {
-            entity.HasKey(e => e.BookingDetailId).HasName("PK__BookingD__8136D47AD9870057");
+            entity.HasKey(e => e.BookingDetailId).HasName("PK__BookingD__8136D47AE4745503");
 
             entity.ToTable("BookingDetail");
 
-            entity.Property(e => e.BookingDetailId)
-                .ValueGeneratedNever()
-                .HasColumnName("BookingDetailID");
+            entity.Property(e => e.BookingDetailId).HasColumnName("BookingDetailID");
             entity.Property(e => e.BookingId).HasColumnName("BookingID");
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
 
@@ -192,6 +196,15 @@ public partial class ManagementCafeContext : DbContext
                 .HasMaxLength(15)
                 .IsUnicode(false);
             entity.Property(e => e.Role).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<Voucher>(entity =>
+        {
+            entity.Property(e => e.VoucherId)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .IsFixedLength()
+                .HasColumnName("VoucherID");
         });
 
         OnModelCreatingPartial(modelBuilder);

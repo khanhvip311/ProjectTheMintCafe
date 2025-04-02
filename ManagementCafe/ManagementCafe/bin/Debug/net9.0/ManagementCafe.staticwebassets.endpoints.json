@@ -5309,7 +5309,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.010526315789"
+          "Quality": "0.003597122302"
         }
       ],
       "ResponseHeaders": [
@@ -5327,7 +5327,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "Content-Type",
@@ -5335,15 +5335,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "W/\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Vary",
@@ -5353,7 +5353,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         }
       ]
     },
@@ -5372,7 +5372,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -5380,17 +5380,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         }
       ]
     },
@@ -5413,7 +5413,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "Content-Type",
@@ -5421,11 +5421,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Vary",
@@ -5435,18 +5435,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA="
+          "Value": "sha256-DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So="
         }
       ]
     },
     {
-      "Route": "css/Customer/Booking.kbzxg5hyy0.css",
+      "Route": "css/Customer/Booking.k37xmvuteg.css",
       "AssetFile": "css/Customer/Booking.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.010526315789"
+          "Quality": "0.003597122302"
         }
       ],
       "ResponseHeaders": [
@@ -5464,7 +5464,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "Content-Type",
@@ -5472,15 +5472,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "W/\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Vary",
@@ -5490,11 +5490,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kbzxg5hyy0"
+          "Value": "k37xmvuteg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         },
         {
           "Name": "label",
@@ -5503,7 +5503,7 @@
       ]
     },
     {
-      "Route": "css/Customer/Booking.kbzxg5hyy0.css",
+      "Route": "css/Customer/Booking.k37xmvuteg.css",
       "AssetFile": "css/Customer/Booking.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5517,7 +5517,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -5525,21 +5525,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kbzxg5hyy0"
+          "Value": "k37xmvuteg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         },
         {
           "Name": "label",
@@ -5548,7 +5548,7 @@
       ]
     },
     {
-      "Route": "css/Customer/Booking.kbzxg5hyy0.css.gz",
+      "Route": "css/Customer/Booking.k37xmvuteg.css.gz",
       "AssetFile": "css/Customer/Booking.css.gz",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5566,7 +5566,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "Content-Type",
@@ -5574,11 +5574,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Vary",
@@ -5588,11 +5588,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kbzxg5hyy0"
+          "Value": "k37xmvuteg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA="
+          "Value": "sha256-DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So="
         },
         {
           "Name": "label",
@@ -7687,6 +7687,304 @@
       ]
     },
     {
+      "Route": "js/Booking.js",
+      "AssetFile": "js/Booking.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000200160128"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.js",
+      "AssetFile": "js/Booking.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.js.gz",
+      "AssetFile": "js/Booking.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.yqez6abj1h.js",
+      "AssetFile": "js/Booking.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000200160128"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yqez6abj1h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Booking.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.yqez6abj1h.js",
+      "AssetFile": "js/Booking.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yqez6abj1h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Booking.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.yqez6abj1h.js.gz",
+      "AssetFile": "js/Booking.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yqez6abj1h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Booking.js.gz"
+        }
+      ]
+    },
+    {
       "Route": "js/Order.imgx62r7b8.js",
       "AssetFile": "js/Order.js.gz",
       "Selectors": [
@@ -7727,7 +8025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Vary",
@@ -7776,7 +8074,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7825,7 +8123,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Vary",
@@ -7888,7 +8186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Vary",
@@ -7929,7 +8227,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7970,7 +8268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Vary",

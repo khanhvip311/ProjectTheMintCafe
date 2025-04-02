@@ -281,6 +281,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Booking.js",
+      "PackagePath": "staticwebassets\\js\\Booking.js"
+    },
+    {
       "Id": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Order.js",
       "PackagePath": "staticwebassets\\js\\Order.js"
     },

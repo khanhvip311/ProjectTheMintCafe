@@ -15,7 +15,6 @@ namespace ManagementCafe.Controllers
     public class StaffController : Controller
     {
         private ManagementCafeContext db = new ManagementCafeContext();
-        private readonly ILogger<StaffController> _logger;
         public IActionResult Order()
         {
             string userJson = HttpContext.Session.GetString("AccountLogOn");
@@ -31,7 +30,7 @@ namespace ManagementCafe.Controllers
             }
             var listcate = db.Categories.ToList();
             var listproduct = db.Products.ToList();
-            var filloder = new FillOrder(listcate, listproduct);
+            var filloder = new FillOrder(listcate, listproduct, new List<PartyTable>());
 
 
             return View(filloder);

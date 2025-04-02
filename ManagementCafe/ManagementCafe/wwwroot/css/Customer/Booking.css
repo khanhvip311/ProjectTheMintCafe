@@ -3,3 +3,28 @@
     margin-bottom: 20px;
     border-radius: 10px;
 }
+.product-list {
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.table-thumb {
+    width: 100%; /* Ảnh sẽ co theo div cha */
+    display: flex;
+    justify-content: center;
+}
+
+    .table-thumb img {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+#voucher {
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+    

@@ -735,14 +735,14 @@
     <StaticWebAssetEndpoint Include="_content/ManagementCafe/css/Customer/Booking.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Customer\Booking.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"89"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 21:06:35 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"541"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 04:32:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ManagementCafe/css/Customer/Booking.kbzxg5hyy0.css">
+    <StaticWebAssetEndpoint Include="_content/ManagementCafe/css/Customer/Booking.k37xmvuteg.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Customer\Booking.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kbzxg5hyy0"},{"Name":"integrity","Value":"sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="},{"Name":"label","Value":"_content/ManagementCafe/css/Customer/Booking.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"89"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 21:06:35 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k37xmvuteg"},{"Name":"integrity","Value":"sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="},{"Name":"label","Value":"_content/ManagementCafe/css/Customer/Booking.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"541"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 04:32:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ManagementCafe/css/Home/PrivacyPolicy.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Home\PrivacyPolicy.css'))</AssetFile>
@@ -828,17 +828,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 06:27:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ManagementCafe/js/Booking.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Booking.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-liypcCHLO9qGvx0MNvFfRcpGTV\u002BvpxLCMrkMZ7X/lHQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24407"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022liypcCHLO9qGvx0MNvFfRcpGTV\u002BvpxLCMrkMZ7X/lHQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 08:25:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ManagementCafe/js/Booking.yqez6abj1h.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Booking.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yqez6abj1h"},{"Name":"integrity","Value":"sha256-liypcCHLO9qGvx0MNvFfRcpGTV\u002BvpxLCMrkMZ7X/lHQ="},{"Name":"label","Value":"_content/ManagementCafe/js/Booking.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24407"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022liypcCHLO9qGvx0MNvFfRcpGTV\u002BvpxLCMrkMZ7X/lHQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 08:25:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ManagementCafe/js/Order.imgx62r7b8.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Order.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"imgx62r7b8"},{"Name":"integrity","Value":"sha256-alBsJE96fYYRJ64vOKQ90TGfHPLcFms1umIy5u74ojA="},{"Name":"label","Value":"_content/ManagementCafe/js/Order.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16170"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022alBsJE96fYYRJ64vOKQ90TGfHPLcFms1umIy5u74ojA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 18:26:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16170"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022alBsJE96fYYRJ64vOKQ90TGfHPLcFms1umIy5u74ojA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 01:58:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ManagementCafe/js/Order.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Order.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-alBsJE96fYYRJ64vOKQ90TGfHPLcFms1umIy5u74ojA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"16170"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022alBsJE96fYYRJ64vOKQ90TGfHPLcFms1umIy5u74ojA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 18:26:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"16170"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022alBsJE96fYYRJ64vOKQ90TGfHPLcFms1umIy5u74ojA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 01:58:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ManagementCafe/js/site.fr7q2aak1r.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

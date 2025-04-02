@@ -53,6 +53,7 @@ namespace ManagementCafe.Controllers
             // Xử lý dựa trên resultCode (giao dịch thành công)
             if (!string.IsNullOrEmpty(response.ResultCode))
             {
+                Debug.WriteLine("response.ResultCode: " + response.ResultCode);
                 if (response.ResultCode == "0")
                 {
                     // Giao dịch thành công
@@ -79,7 +80,7 @@ namespace ManagementCafe.Controllers
             {
                 if (response.ErrorCode == "1006")
                 {
-                    // Người dùng hủy giao dịch
+                    // Người dùng hủy giao dịch 
                     bill.Status = false;
                     db.Bills.Remove(bill);
                     db.SaveChanges(); // Lưu thay đổi vào database

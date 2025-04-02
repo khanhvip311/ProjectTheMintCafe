@@ -34,6 +34,7 @@ G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroo
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\favicon.ico
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery\dist\jquery.slim.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\js\Booking.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\jquery\dist\jquery.js
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 G:\TDMU\DoAnChuyenNganh\ManagementCafe-main\ManagementCafe\ManagementCafe\wwwroot\lib\bootstrap\dist\js\bootstrap.js
@@ -136,6 +137,7 @@ wwwroot\css\Register.css
 wwwroot\css\site.css
 wwwroot\css\Staff\Order.css
 wwwroot\favicon.ico
+wwwroot\js\Booking.js
 wwwroot\js\Order.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

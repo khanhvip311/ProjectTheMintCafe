@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iNA7HP0vMpnXvHmYHD/G+4Rolj6c7BKYVV0o1QdiHdg=",
+  "Hash": "gMlDjqLkTXe4T17TY7U/8vXmT5G0FbrltQT4lZeRRUo=",
   "Source": "ManagementCafe",
   "BasePath": "_content/ManagementCafe",
   "Mode": "Default",
@@ -794,6 +794,27 @@
       "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\hnhsipuvzl-yqez6abj1h.gz",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "js/Booking#[.{fingerprint=yqez6abj1h}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Booking.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vyvzjp7dib",
+      "Integrity": "acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Booking.js"
+    },
+    {
       "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\hxqy8ern35-0i3buxo5is.gz",
       "SourceId": "ManagementCafe",
       "SourceType": "Discovered",
@@ -1403,12 +1424,12 @@
       "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-k37xmvuteg.gz",
       "SourceId": "ManagementCafe",
       "SourceType": "Discovered",
       "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ManagementCafe",
-      "RelativePath": "css/Customer/Booking#[.{fingerprint=kbzxg5hyy0}]?.css.gz",
+      "RelativePath": "css/Customer/Booking#[.{fingerprint=k37xmvuteg}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1417,8 +1438,8 @@
       "RelatedAsset": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5z81m7kz9z",
-      "Integrity": "sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=",
+      "Fingerprint": "aq0pb7pref",
+      "Integrity": "DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css"
@@ -2845,8 +2866,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kbzxg5hyy0",
-      "Integrity": "EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=",
+      "Fingerprint": "k37xmvuteg",
+      "Integrity": "0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Customer\\Booking.css"
@@ -2997,6 +3018,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Booking.js",
+      "SourceId": "ManagementCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\",
+      "BasePath": "_content/ManagementCafe",
+      "RelativePath": "js/Booking#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yqez6abj1h",
+      "Integrity": "liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Booking.js"
     },
     {
       "Identity": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Order.js",
@@ -9306,12 +9348,12 @@
     },
     {
       "Route": "css/Customer/Booking.css",
-      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-k37xmvuteg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.010526315789"
+          "Quality": "0.003597122302"
         }
       ],
       "ResponseHeaders": [
@@ -9321,15 +9363,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9349,13 +9391,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "W/\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         }
       ]
     },
@@ -9370,7 +9412,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -9378,11 +9420,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9392,13 +9434,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         }
       ]
     },
     {
       "Route": "css/Customer/Booking.css.gz",
-      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-k37xmvuteg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9407,7 +9449,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "Content-Type",
@@ -9415,11 +9457,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9437,18 +9479,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA="
+          "Value": "sha256-DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So="
         }
       ]
     },
     {
-      "Route": "css/Customer/Booking.kbzxg5hyy0.css",
-      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "Route": "css/Customer/Booking.k37xmvuteg.css",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-k37xmvuteg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.010526315789"
+          "Quality": "0.003597122302"
         }
       ],
       "ResponseHeaders": [
@@ -9458,15 +9500,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9486,13 +9528,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "W/\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kbzxg5hyy0"
+          "Value": "k37xmvuteg"
         },
         {
           "Name": "label",
@@ -9500,12 +9542,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         }
       ]
     },
     {
-      "Route": "css/Customer/Booking.kbzxg5hyy0.css",
+      "Route": "css/Customer/Booking.k37xmvuteg.css",
       "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\css\\Customer\\Booking.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9515,7 +9557,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -9523,11 +9565,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ=\""
+          "Value": "\"0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9537,7 +9579,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kbzxg5hyy0"
+          "Value": "k37xmvuteg"
         },
         {
           "Name": "label",
@@ -9545,13 +9587,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EAXugV3Xf9hn7dgxmSWXeg78YB2pPIoe4KwGIZBeIrQ="
+          "Value": "sha256-0Iurs4OcYqa53os9LFOavG5O3RLGJHPaolE5b9NrpP0="
         }
       ]
     },
     {
-      "Route": "css/Customer/Booking.kbzxg5hyy0.css.gz",
-      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-kbzxg5hyy0.gz",
+      "Route": "css/Customer/Booking.k37xmvuteg.css.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\xmqtues86c-k37xmvuteg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9560,7 +9602,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94"
+          "Value": "277"
         },
         {
           "Name": "Content-Type",
@@ -9568,11 +9610,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA=\""
+          "Value": "\"DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:06:35 GMT"
+          "Value": "Wed, 02 Apr 2025 04:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9590,7 +9632,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kbzxg5hyy0"
+          "Value": "k37xmvuteg"
         },
         {
           "Name": "label",
@@ -9598,7 +9640,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sTUUu+Gz3O9wGjyGP1PwXKjvhXV53n/1gwInBtYQvdA="
+          "Value": "sha256-DnlWbsdBqqW3542gSWy2ebS2MXunuw4up2LJhTkZ9So="
         }
       ]
     },
@@ -11689,6 +11731,304 @@
       ]
     },
     {
+      "Route": "js/Booking.js",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\hnhsipuvzl-yqez6abj1h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000200160128"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.js",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Booking.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.js.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\hnhsipuvzl-yqez6abj1h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.yqez6abj1h.js",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\hnhsipuvzl-yqez6abj1h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000200160128"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yqez6abj1h"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Booking.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.yqez6abj1h.js",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\wwwroot\\js\\Booking.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yqez6abj1h"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Booking.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-liypcCHLO9qGvx0MNvFfRcpGTV+vpxLCMrkMZ7X/lHQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/Booking.yqez6abj1h.js.gz",
+      "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\hnhsipuvzl-yqez6abj1h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yqez6abj1h"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Booking.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-acw0+45Qj8CyLJ5+5tFXPJicKbU4juZ/jOmXna8U/iI="
+        }
+      ]
+    },
+    {
       "Route": "js/Order.imgx62r7b8.js",
       "AssetFile": "G:\\TDMU\\DoAnChuyenNganh\\ManagementCafe-main\\ManagementCafe\\ManagementCafe\\obj\\Debug\\net9.0\\compressed\\ook6e7wy0j-imgx62r7b8.gz",
       "Selectors": [
@@ -11713,7 +12053,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11774,7 +12114,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11819,7 +12159,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11874,7 +12214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11927,7 +12267,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11964,7 +12304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 18:26:50 GMT"
+          "Value": "Wed, 02 Apr 2025 01:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
