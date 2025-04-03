@@ -1,0 +1,104 @@
+﻿@model ManagementCafe.Models.Category
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@* <h1>Create</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CateId" class="control-label"></label>
+                <input asp-for="CateId" class="form-control" />
+                <span asp-validation-for="CateId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Thêm loại sản phẩm</strong>
+        </div>
+        <div class="card-body card-block">
+            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal" id="productForm">
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="name" class="form-control-label">Tên sản phẩm</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name" name="Name" value="@ViewBag.Name" placeholder="Tên sản phẩm" class="form-control" required>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        <i class="fa fa-dot-circle-o"></i> Lưu
+                    </button>
+
+                    <button type="button" class="btn btn-danger btn-sm" onclick="resetForm()">
+                        <i class="fa fa-ban"></i> Đặt lại
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary btn-sm">Trở lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+        function validateForm(event) {
+        event.preventDefault();
+
+        let isValid = true;
+        let form = document.getElementById("productForm");
+        let nameInput = form.querySelector("input[name='Name']");
+        let errorMessages = form.querySelectorAll(".error-message");
+
+        // Xóa lỗi cũ
+        errorMessages.forEach(msg => msg.innerText = "");
+        nameInput.style.border = "";
+
+        // Kiểm tra tên sản phẩm
+        if (nameInput.value.trim() === "") {
+            isValid = false;
+            nameInput.style.border = "1px solid red";
+            nameInput.nextElementSibling.innerText = "Tên sản phẩm không được để trống.";
+        }
+
+        // Kiểm tra các trường khác (nếu có) ...
+
+        // Nếu hợp lệ thì submit form
+        if (isValid) {
+            form.submit();
+        } else {
+            alert("Vui lòng kiểm tra lại thông tin.");
+        }
+    }
+
+    function resetForm() {
+        let form = document.getElementById("productForm");
+        form.reset();
+        form.querySelectorAll("input, textarea, select").forEach(el => el.style.border = "");
+        form.querySelectorAll(".error-message").forEach(msg => msg.innerText = "");
+    }
+</script>

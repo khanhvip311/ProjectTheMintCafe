@@ -1,0 +1,85 @@
+﻿@model ManagementCafe.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Chỉnh sửa sản phẩm</strong>
+        </div>
+        <div class="card-body card-block">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data" class="form-horizontal">
+                <input type="hidden" name="ProductId" value="@Model.ProductId" />
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="name-input" class="form-control-label">Tên sản phẩm</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name-input" name="Name" value="@Model.Name" placeholder="Tên sản phẩm" class="form-control"  />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="price-input" class="form-control-label">Giá</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="price-input" name="PriceDisplay" value="@String.Format(new System.Globalization.CultureInfo("vi-VN"), "{0:N0}", Model.Price) VND" class="form-control"  />
+                        <input type="hidden" id="hidden-price" name="Price" value="@Model.Price" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="status-input" class="form-control-label">Trạng thái</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="status-input" name="Status" value="@Model.Status" placeholder="Trạng thái" class="form-control"  />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="description-input" class="form-control-label">Mô tả</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea name="Description" id="description-input" rows="9" placeholder="Nội dung..." class="form-control" >@Model.Description</textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="cateId" class="form-control-label">Loại sản phẩm</label></div>
+                    <div class="col-12 col-md-9">
+                        <select name="CateId" id="cateId" class="form-control" asp-items="ViewBag.ListCategory">
+                            <option value="">-- Chọn loại sản phẩm --</option>
+                        </select>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label class="form-control-label">Hình ảnh hiện tại</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <img src="~/assets/images/product/@Model.Image" alt="@Model.Image" style="width:150px; height:150px;" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="file-input" class="form-control-label">Cập nhật hình ảnh</label>
+                        <input type="hidden" name="CurrentImage" value="@Model.Image" />
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="file" id="file-input" name="ImageFile" value="@Model.Image" class="form-control-file" />
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <input type="submit" value="Lưu" class="btn btn-primary btn-sm" />
+                    <a asp-action="Index" class="btn btn-danger btn-sm">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

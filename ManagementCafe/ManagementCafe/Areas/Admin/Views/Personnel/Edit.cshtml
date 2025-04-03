@@ -1,0 +1,74 @@
+﻿@model ManagementCafe.Models.User
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Thêm nhân viên</strong>
+        </div>
+        <div class="card-body card-block">
+            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal" id="productForm">
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="name" class="form-control-label">Họ và tên</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name" name="Name" value="@Model.Name" placeholder="Họ và tên" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="phone" class="form-control-label">Số điện thoại</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="phone" name="Phone" value="@Model.Phone" placeholder="Số điện thoại" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="email" class="form-control-label">Email</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="email" name="Email" value="@Model.Email" placeholder="Email" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="pass" class="form-control-label">Mật khẩu</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="password" id="pass" name="Pass" value="@Model.Pass" placeholder="Mật khẩu" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="address" class="form-control-label">Địa chỉ</label></div>
+                    <div class="col-12 col-md-9">
+                        <textarea name="Address" id="address" rows="4" placeholder="Địa chỉ" class="form-control">@Model.Address</textarea>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="role" class="form-control-label">Vai trò</label></div>
+                    <div class="col-12 col-md-9">
+                        <select name="Role" id="role" class="form-control" asp-items="ViewBag.Role">
+                            <option value="">-- Chọn vai trò --</option>
+                        </select>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+
+                <div class="card-footer">
+                    <input type="submit" value="Lưu" class="btn btn-primary btn-sm" />
+                    <a asp-action="Index" class="btn btn-danger btn-sm">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

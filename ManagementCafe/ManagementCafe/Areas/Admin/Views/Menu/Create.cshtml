@@ -1,0 +1,136 @@
+﻿@model ManagementCafe.Models.Product
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Thêm sản phẩm</strong>
+        </div>
+        <div class="card-body card-block">
+            <form id="productForm" method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="name" class="form-control-label">Tên sản phẩm</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name" name="Name" value="@ViewBag.Name" placeholder="Tên sản phẩm" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="price" class="form-control-label">Giá</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="price" name="Price" value="@ViewBag.Price" placeholder="Giá" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="status" class="form-control-label">Trạng thái</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="status" name="Status" value="@ViewBag.Status" placeholder="Trạng thái" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="description" class="form-control-label">Mô tả</label></div>
+                    <div class="col-12 col-md-9">
+                        <textarea name="Description" id="description" rows="4" placeholder="Mô tả sản phẩm..." class="form-control"></textarea>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="cateId" class="form-control-label">Loại sản phẩm</label></div>
+                    <div class="col-12 col-md-9">
+                        <select name="CateId" id="cateId" class="form-control" asp-items="ViewBag.ListCategory">
+                            <option value="">-- Chọn loại sản phẩm --</option>
+                        </select>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="image" class="form-control-label">Hình ảnh</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="file" id="image" name="Image" class="form-control-file">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        <i class="fa fa-dot-circle-o"></i> Lưu
+                    </button>
+
+                    <button type="button" class="btn btn-danger btn-sm" onclick="resetForm()">
+                        <i class="fa fa-ban"></i> Đặt lại
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary btn-sm">Trở lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Thêm sự kiện submit cho form
+    document.getElementById("productForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Ngừng gửi form mặc định để xử lý kiểm tra
+
+        let isValid = true;
+        let form = document.getElementById("productForm");
+        let inputs = form.querySelectorAll("input[type=text], input[type=number], textarea");
+        let select = form.querySelector("select[name='CateId']");
+        let fileInput = document.getElementById("image");
+        let errorMessages = form.querySelectorAll(".error-message");
+
+        // Xóa lỗi cũ
+        errorMessages.forEach(msg => msg.innerText = "");
+        inputs.forEach(input => input.style.border = "");
+        select.style.border = "";
+        fileInput.style.border = "";
+
+        // Kiểm tra các trường nhập liệu
+        inputs.forEach(input => {
+            if (input.value.trim() === "") {
+                isValid = false;
+                input.style.border = "1px solid red";
+                input.nextElementSibling.innerText = "Trường này không được để trống.";
+            }
+        });
+
+        // Kiểm tra select (Loại sản phẩm)
+        if (select.value.trim() === "") {
+            isValid = false;
+            select.style.border = "1px solid red";
+            select.nextElementSibling.innerText = "Vui lòng chọn loại sản phẩm.";
+        }
+
+        // Kiểm tra hình ảnh (file)
+        if (fileInput.files.length === 0) {
+            isValid = false;
+            fileInput.style.border = "1px solid red";
+            fileInput.nextElementSibling.innerText = "Vui lòng chọn hình ảnh.";
+        }
+
+        // Nếu tất cả hợp lệ thì submit form
+        if (isValid) {
+            form.submit();
+        } else {
+            alert("Vui lòng kiểm tra lại thông tin.");
+        }
+    });
+
+    // Reset form khi bấm nút "Đặt lại"
+    function resetForm() {
+        let form = document.getElementById("productForm");
+        form.reset();
+        form.querySelectorAll("input, textarea, select").forEach(el => el.style.border = "");
+        form.querySelectorAll(".error-message").forEach(msg => msg.innerText = "");
+    }
+</script>

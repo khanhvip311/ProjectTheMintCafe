@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -146,6 +146,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Admin\vendors\bootstrap\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\Admin\vendors\bootstrap\.github\ISSUE_TEMPLATE\bug.md" />
+    <None Include="wwwroot\Admin\vendors\bootstrap\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\Admin\vendors\bootstrap\.github\ISSUE_TEMPLATE\feature.md" />
+    <None Include="wwwroot\Admin\vendors\bootstrap\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\Admin\vendors\bootstrap\.github\SUPPORT.md" />
+    <None Include="wwwroot\Admin\vendors\jquery-validation-unobtrusive\.vsts-pipelines\builds\ci-public.yml" />
     <None Include="wwwroot\assets\css\all.min.css" />
     <None Include="wwwroot\assets\css\animate.css" />
     <None Include="wwwroot\assets\css\bg-image\banner-bg.jpg" />
@@ -278,6 +285,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="foodbuzz\" />
   </ItemGroup>
 

@@ -1,0 +1,79 @@
+﻿@model ManagementCafe.Models.PartyTable
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@* <h1>Edit</h1>
+
+<h4>PartyTable</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TableId" />
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Capacity" class="control-label"></label>
+                <input asp-for="Capacity" class="form-control" />
+                <span asp-validation-for="Capacity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Chỉnh sửa bàn </strong>
+        </div>
+        <div class="card-body card-block">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data" class="form-horizontal">
+                
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="name-input" class="form-control-label">Số bàn</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name-input" name="TableId" value="@Model.TableId" placeholder="Số bàn" class="form-control" readonly />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="name-input" class="form-control-label">Trạng thái</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name-input" name="Status" value="@Model.Status" placeholder="Trạng thái" class="form-control" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="name-input" class="form-control-label">Số người</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name-input" name="Capacity" value="@Model.Capacity" placeholder="Số người" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <input type="submit" value="Lưu" class="btn btn-primary btn-sm" />
+                    <a asp-action="Index" class="btn btn-danger btn-sm">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

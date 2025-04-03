@@ -1,0 +1,181 @@
+﻿@model IEnumerable<ManagementCafe.Models.Bill>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="breadcrumbs">
+    <div class="col-sm-4">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1>Quản lý đơn hàng</h1>
+            </div>
+        </div>
+    </div>
+    @* <div class="col-sm-8">
+        <div class="page-header float-right">
+            <div class="page-title">
+                <ol class="breadcrumb text-right">
+                    <li><a href="#">Quản lý thực đơn</a></li>
+                    <li><a href="#">Table</a></li>
+                    <li class="active">Data table</li>
+                </ol>
+            </div>
+        </div>
+    </div> *@
+</div>
+
+<div class="content mt-3">
+    <div class="animated fadeIn">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <strong class="card-title">Danh sách thực đơn</strong>
+                        
+                    </div>
+
+                    <div class="d-inline-flex align-items-center mt-3 ml-2" style="white-space: nowrap;">
+                        <label class="mb-0 mr-2">Tìm kiếm:</label>
+                        <input type="search" id="searchInput" class="form-control form-control-sm w-50" placeholder="Nhập từ khóa..." onkeyup="searchTable()" aria-controls="bootstrap-data-table-export" />
+                    </div>
+
+                    <div class="card-body">
+                        <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Mã hóa đơn</th>
+                                    <th>Thời gian</th>
+                                    <th>Giá gốc</th>
+                                    <th>Trạng thái</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.BillId</td>
+                                        <td>
+                                            @item.Date
+                                        </td>
+                                        <td>
+                                            @String.Format(new System.Globalization.CultureInfo("vi-VN"), "{0:N0}", item.TotalPrice) VND
+                                        </td>
+                                        <td>
+                                            @item.Status
+                                        </td>
+                                        <td>
+                                            @* <a asp-action="Details" asp-route-id="@item.BillId" class="btn btn-info">Xem chi tiết</a> *@
+                                            <button class="btn btn-info viewDetailsBtn"
+                                                    data-id="@item.BillId"
+                                                    data-date="@item.Date"
+                                                    data-status="@item.Status"
+                                                    data-discount="@item.Discount"
+                                                    data-price="@item.Price"
+                                                    data-totalprice="@item.TotalPrice"
+                                                    data-paymentmethod="@item.PaymentMethod"
+                                                    data-userid="@item.UserId">
+                                                Xem chi tiết
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div><!-- .animated -->
+</div><!-- .content -->
+<!-- Modal -->
+<div class="modal fade" id="tableDetailModal" tabindex="-1" role="dialog" aria-labelledby="tableModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tableModalLabel">Chi tiết hóa đơn</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Mã hóa đơn:</strong> <span id="modalBillId"></span></p>
+                <p><strong>Thời gian:</strong> <span id="modalBillDate"></span></p>
+                <p><strong>Trạng thái:</strong> <span id="modalBillStatus"></span></p>
+                <p><strong>Khuyến mãi:</strong> <span id="modalBillDiscount"></span>%</p>
+                <p><strong>Giá gốc:</strong> <span id="modalBillPrice"></span></p>
+                <p><strong>Giá tổng:</strong> <span id="modalBillTotalPrice"></span></p>
+                <p><strong>Phương thức thanh toán:</strong> <span id="modalBillPaymentMethod"></span></p>
+                <p><strong>Mã nhân viên:</strong> <span id="modalBillUserId"></span></p>
+            </div>
+            <div class="modal-footer">
+                @* <a href="#" id="editTableBtn" class="btn btn-warning"><i class="fa fa-edit"></i> Chỉnh sửa</a>
+                <a href="#" id="deleteTableBtn" class="btn btn-danger"><i class="fa fa-trash"></i> Xóa</a> *@
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Thêm jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Thêm Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+        $(document).ready(function () {
+        $(".viewDetailsBtn").click(function () {
+            var billId = $(this).data("id");
+            var billDate = $(this).data("date");
+            var billStatus = $(this).data("status");
+            var billDiscount = $(this).data("discount");
+            var billPrice = $(this).data("price");
+            var billTotalPrice = $(this).data("totalprice");
+            var billPaymentMethod = $(this).data("paymentmethod");
+            var billUserId = $(this).data("userid");
+
+            $("#modalBillId").text(billId);
+            $("#modalBillDate").text(billDate);
+            $("#modalBillStatus").text(billStatus);
+            $("#modalBillDiscount").text(billDiscount);
+            $("#modalBillPrice").text(Number(billPrice).toLocaleString("vi-VN") + " VND");
+            $("#modalBillTotalPrice").text(Number(billTotalPrice).toLocaleString("vi-VN") + " VND");
+            $("#modalBillPaymentMethod").text(billPaymentMethod);
+            $("#modalBillUserId").text(billUserId);
+
+            $("#editTableBtn").attr("href", "/Admin/Bill/Edit/" + billId);
+            $("#deleteTableBtn").attr("data-id", billId);
+
+            $("#tableDetailModal").modal("show");
+        });
+
+        $("#deleteTableBtn").click(function (e) {
+            e.preventDefault();
+            var billId = $(this).attr("data-id");
+            if (confirm("Bạn có chắc chắn muốn xóa hóa đơn này không?")) {
+                window.location.href = "/Admin/Bill/Delete/" + billId;
+            }
+        });
+    });
+
+    function searchTable() {
+        let input = document.getElementById("searchInput").value.toLowerCase().trim();
+        let rows = document.querySelectorAll("#bootstrap-data-table-export tbody tr");
+
+        rows.forEach(row => {
+            let nameCell = row.querySelector("td:first-child"); // Lấy ô chứa tên món
+            if (nameCell) {
+                let itemName = nameCell.innerText.toLowerCase();
+                row.style.display = itemName.includes(input) ? "" : "none";
+            }
+        });
+    }
+</script>

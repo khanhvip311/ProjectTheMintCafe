@@ -1,0 +1,167 @@
+﻿@model ManagementCafe.Models.User
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Thêm nhân viên</strong>
+        </div>
+        <div class="card-body card-block">
+            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal" id="productForm">
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="name" class="form-control-label">Họ và tên</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name" name="Name" value="@ViewBag.Name" placeholder="Họ và tên" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="phone" class="form-control-label">Số điện thoại</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="phone" name="Phone" value="" placeholder="Số điện thoại" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="email" class="form-control-label">Email</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="email" name="Email" value="" placeholder="Email" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="pass" class="form-control-label">Mật khẩu</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="password" id="pass" name="Pass" value="" placeholder="Mật khẩu" class="form-control">
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="address" class="form-control-label">Địa chỉ</label></div>
+                    <div class="col-12 col-md-9">
+                        <textarea name="Address" id="address" rows="4" placeholder="Địa chỉ" class="form-control"></textarea>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="role" class="form-control-label">Vai trò</label></div>
+                    <div class="col-12 col-md-9">
+                        <select name="Role" id="role" class="form-control">
+                            <option value="">-- Chọn vai trò --</option>
+                            <option value="Admin">Admin</option>
+                            <option value="Staff">Nhân viên</option>
+                            <option value="Customer">Khách hàng</option>
+                        </select>
+                        <small class="text-danger error-message"></small>
+                    </div>
+                </div>
+
+                
+
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm" onclick="validateForm(event)">
+                        <i class="fa fa-dot-circle-o"></i> Lưu
+                    </button>
+
+                    <button type="button" class="btn btn-danger btn-sm" onclick="resetForm()">
+                        <i class="fa fa-ban"></i> Đặt lại
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary btn-sm">Trở lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function validateForm(event) {
+        event.preventDefault();
+
+        let isValid = true;
+        let errorMessages = document.querySelectorAll(".error-message");
+        errorMessages.forEach(error => error.innerText = "");
+
+        let name = document.getElementById("name").value.trim();
+        let phone = document.getElementById("phone").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let pass = document.getElementById("pass").value.trim();
+        let address = document.getElementById("address").value.trim();
+        let role = document.getElementById("role").value.trim();
+
+        if (name === "") {
+            document.querySelector("#name + .error-message").innerText = "Vui lòng nhập họ và tên.";
+            isValid = false;
+        }
+        if (phone === "" || !/^\d{10,11}$/.test(phone)) {
+            document.querySelector("#phone + .error-message").innerText = "Số điện thoại không hợp lệ.";
+            isValid = false;
+        }
+        if (email === "") {
+            document.querySelector("#email + .error-message").innerText = "Vui lòng điền Email.";
+            isValid = false;
+        }
+        if (pass.length < 6) {
+            document.querySelector("#pass + .error-message").innerText = "Mật khẩu phải có ít nhất 6 ký tự.";
+            isValid = false;
+        }
+        if (address === "") {
+            document.querySelector("#address + .error-message").innerText = "Vui lòng nhập địa chỉ.";
+            isValid = false;
+        }
+        if (role === "") {
+            document.querySelector("#role + .error-message").innerText = "Vui lòng chọn vai trò.";
+            isValid = false;
+        }
+
+        if (isValid) {
+            checkDuplicate(email, phone);
+        }
+    }
+
+    function checkDuplicate(email, phone) {
+        fetch('/Admin/Personnel/CheckDuplicate?email=' + email + '&phone=' + phone)
+            .then(response => response.json())
+            .then(data => {
+                if (data.emailExists) {
+                    document.querySelector("#email + .error-message").innerText = "Email này đã tồn tại.";
+                }
+                if (data.phoneExists) {
+                    document.querySelector("#phone + .error-message").innerText = "Số điện thoại này đã tồn tại.";
+                }
+
+                if (!data.emailExists && !data.phoneExists) {
+                    document.getElementById("productForm").submit();
+                }
+            });
+    }
+
+    function resetForm() {
+        document.getElementById("productForm").reset();
+        document.querySelectorAll(".error-message").forEach(error => error.innerText = "");
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var errorMessage = "@TempData["Errors"]";
+        var successMessage = "@TempData["Message"]";
+
+        if (errorMessage) {
+            alert("Lỗi:\n" + errorMessage);
+        }
+
+        if (successMessage) {
+            alert(successMessage);
+        }
+    });
+</script>
+
+

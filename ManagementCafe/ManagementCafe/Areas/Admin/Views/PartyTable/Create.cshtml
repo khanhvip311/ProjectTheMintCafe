@@ -1,0 +1,91 @@
+﻿@model ManagementCafe.Models.PartyTable
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Thêm loại sản phẩm</strong>
+        </div>
+        <div class="card-body card-block">
+            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal" id="productForm">
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="TableId" class="form-control-label">Số bàn</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="TableId" name="TableId" value="@ViewBag.Name" placeholder="Số bàn" class="form-control">
+                        <small class="text-danger error-message" id="error-TableId"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="Status" class="form-control-label">Trạng thái</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="Status" name="Status" value="@ViewBag.Name" placeholder="Trạng thái" class="form-control">
+                        <small class="text-danger error-message" id="error-Status"></small>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="Capacity" class="form-control-label">Số người</label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="Capacity" name="Capacity" value="@ViewBag.Name" placeholder="Số người" class="form-control">
+                        <small class="text-danger error-message" id="error-Capacity"></small>
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        <i class="fa fa-dot-circle-o"></i> Lưu
+                    </button>
+
+                    <button type="button" class="btn btn-danger btn-sm" onclick="resetForm()">
+                        <i class="fa fa-ban"></i> Đặt lại
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary btn-sm">Trở lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("productForm").addEventListener("submit", function (event) {
+        let isValid = true;
+
+        function validateField(id, message) {
+            let input = document.getElementById(id);
+            let error = document.getElementById("error-" + id);
+            if (!input.value.trim()) {
+                error.innerText = message;
+                error.style.display = "block"; // Hiển thị lỗi
+                isValid = false;
+            } else {
+                error.innerText = "";
+                error.style.display = "none"; // Ẩn lỗi khi hợp lệ
+            }
+        }
+
+        validateField("TableId", "Số bàn không được để trống.");
+        validateField("Status", "Trạng thái không được để trống.");
+        validateField("Capacity", "Số người không được để trống.");
+
+        if (!isValid) {
+            event.preventDefault();
+        }
+    });
+
+    function resetForm() {
+        document.getElementById("productForm").reset();
+        document.querySelectorAll(".error-message").forEach(el => {
+            el.innerText = "";
+            el.style.display = "none";
+        });
+    }
+</script>
+

@@ -1,0 +1,119 @@
+﻿@model ManagementCafe.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-header">
+            <strong>Chi tiết sản phẩm</strong>
+        </div>
+        <div class="card-body card-block">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data" class="form-horizontal">
+                <input type="hidden" name="ProductId" value="@Model.ProductId" />
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="name-input" class="form-control-label">Tên sản phẩm</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="name-input" name="Name" value="@Model.Name" placeholder="Tên sản phẩm" class="form-control" readonly />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="price-input" class="form-control-label">Giá</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="price-input" name="PriceDisplay" value="@String.Format(new System.Globalization.CultureInfo("vi-VN"), "{0:N0}", Model.Price) VND" class="form-control" readonly />
+                        <input type="hidden" id="hidden-price" name="Price" value="@Model.Price" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="status-input" class="form-control-label">Trạng thái</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="status-input" name="Status" value="@Model.Status" placeholder="Trạng thái" class="form-control" readonly />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="description-input" class="form-control-label">Mô tả</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea name="Description" id="description-input" rows="9" placeholder="Nội dung..." class="form-control" readonly>@Model.Description</textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="category-input" class="form-control-label">Loại sản phẩm</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="category-input" name="CateName" value="@ViewBag.NameCate" class="form-control" readonly />
+                        <select name="CateId" id="cate-select" class="form-control d-none" asp-items="ViewBag.ListCategory">
+                            <option value="">-- Chọn loại sản phẩm --</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label class="form-control-label">Hình ảnh hiện tại</label>                       
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <img src="~/assets/images/product/@Model.Image" alt="@Model.Image" style="width:150px; height:150px;" />
+                    </div>
+                </div>
+                
+                <div class="card-footer">
+                    <a asp-action="Edit" asp-route-id="@Model.ProductId" class="btn btn-primary btn-sm">Chỉnh sửa</a>
+                    <button type="button" id="delete-btn" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#confirmDeleteModal">Xóa</button>
+                    <a asp-action="Index" class="btn btn-danger btn-sm">Trở lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Xác nhận xóa</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa sản phẩm này không?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+                <a asp-action="Delete" asp-route-id="@Model.ProductId" class="btn btn-danger">Xóa</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+    document.getElementById('cancel-btn').addEventListener('click', function() {
+        document.querySelectorAll('input, textarea').forEach(el => el.setAttribute('readonly', true));
+        document.getElementById('save-btn').classList.add('d-none');
+        document.getElementById('edit-btn').classList.remove('d-none');
+        this.classList.add('d-none');
+
+        document.getElementById('category-input').classList.remove('d-none');
+        document.getElementById('cate-select').classList.add('d-none');
+    });
+
+    document.querySelector("form").addEventListener("submit", function () {
+        let priceInput = document.getElementById("price-input").value;
+        priceInput = priceInput.replace(/\./g, "").replace(" VND", ""); // Xóa dấu chấm và chữ "VND"
+        document.getElementById("hidden-price").value = priceInput;
+    });
+
+</script>
